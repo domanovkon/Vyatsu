@@ -1,0 +1,31 @@
+(12:57:24) ERR_RTM:hasp driver login = 7
+(12:57:24) INF_LOAD:Starting... ТокарныйСтанок_1
+(12:57:24) INF_RTM:Detected RTM NT(6.2)
+(12:57:24) INF_RTM:Base TRACE MODE 6 Profiler T-Factory + ver. 6.10.2 ver. 6.10.1 
+(12:57:24) INF_LOAD:max channel = 65535
+(12:57:24) INF_LOAD:Load Channels 3(3 - 6) 
+(12:57:24) INF_LOAD:Templates=1 (math=0 sql=0 scr=1 doc=0 pnl=0) 
+(12:57:24) INF_LOAD:Objects = 0
+(12:57:24) INF_RTM:Timer=0.055s CalcLoop=550ms 
+(12:57:24) INF_LOAD:LoadTime=0.158s CalcPeriod=550ms 
+(12:57:24) INF_RTM:available(MB): pm=32649 vm=2047; free(MB): pm=22197 vm=1896 em=0 after load
+(12:57:24) INF_RTM:total use(MB): pm=10451 vm=151 after load
+(12:57:24) INF_RTM:use(MB): pm=22(23) vm=54(54) pf=1 after load
+(12:57:24) INF_RTM:gh:2 uh:3 hh:207 after load
+(12:57:30) INF_IP:hostname is DESKTOP-3ANTELC 
+(12:57:30) INF_IP:card0 addr=0.0.0.0 
+(12:57:30) INF_IP:card1 addr=10.204.96.29 
+(12:57:30) INF_IP:card2 addr=192.168.111.134 
+(12:57:30) INF_RTM:start time is 0.029 s 
+(12:57:30) INF_RTM:total use(MB): pm=10560 vm=317 after start
+(12:57:30) INF_RTM:use(MB): pm=78(78) vm=68(68) pf=17642 after start
+(12:57:30) INF_RTM:gh:513 uh:222 hh:439 after start
+(12:57:30) INF_FLT:ModeSwitch at start e15=0000 e18=0000 e20=0000 
+(12:57:30) INF_RTM:mode=2(Work) e15=00 e18=00 e20=00 [src4] 
+(12:57:30) INF_GRAPH:scr:1:popup=0 scrref=0 trend=0,0 update=1 
+(13:0:56) INF_RTM:stoping... = 30
+(13:0:56) INF_RTM:main clc stop 
+(13:0:56) INF_RTM:mode=5(Stop) e15=00 e18=00 e20=00 [src0] 
+(13:0:57) INF_RTM:stop time is 0.869 s 
+(13:0:57) INF_RTM:number of calculation = 372
+(13:0:57) INF_RTM:END OF WORK 

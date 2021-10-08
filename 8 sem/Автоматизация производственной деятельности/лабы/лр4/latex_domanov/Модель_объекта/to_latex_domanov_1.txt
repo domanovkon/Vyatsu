@@ -1,0 +1,8 @@
+(10:7:44) ERR_RTM:hasp driver login = 7
+INF_LOAD:Node=1 tags=13 templates=5 obj=2 
+INF_LOAD:Max: tags=16777215 templates=32767 obj=32767 
+ERR_LOAD:Объект:2 arg=1 incompatible with вых_температура(13),interface not found 
+ERR_LOAD:Поток_паров arg=0 incompatible with вых_температура(13),interface not found 
+INF_LOAD:Node type=90901000 
+INF_LOAD:Модель объекта 
+INF_LOAD:Found CH=12 Resource=3 ExtResurce=2 

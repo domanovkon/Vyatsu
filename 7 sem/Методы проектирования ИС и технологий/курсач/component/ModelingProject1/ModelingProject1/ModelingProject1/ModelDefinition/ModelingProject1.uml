@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner"
+  dslVersion="1.0.0.0"
+  Id="d4ce9eec-f499-46e5-b60c-f4dee8519116"
+  name="ModelingProject1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <component
+        Id="858449c3-cfc1-425f-99cf-3a57d09ea585"
+        name="Web-браузер"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="2bfe252b-bc7e-4ae5-a091-c6c6437508de"
+        name="Web-сервер"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="82532a0c-b8a9-44d4-9e78-1c6ce57f9ed6"
+        name="CGI-сервер"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="d4eb2cc1-40cf-4885-bac2-1a18115cf891"
+        name="СУБД"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="df0cb29b-aa39-46bc-a475-da431a31bccf"
+        name="Statistics.db"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="1abbce1f-e3f2-41e8-a048-60411a20a5b8"
+        name="cors-http-server.py"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="d4e6d1f6-aeb6-44b9-8256-8dc525309031">
+            <componentMoniker
+              Id="3949145f-ba89-4548-8319-69859b8b68ef"
+              LastKnownName="analys.py"
+              LastKnownLocation="ModelingProject1.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <providedInterface
+            Id="4aad65fd-050f-434f-b349-b299051f28f2"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="4c2b4bc9-e0ed-446b-8e8a-67ccf4a53f4c"
+                LastKnownName="HTTP/HTTPS"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="3949145f-ba89-4548-8319-69859b8b68ef"
+        name="analys.py"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="7030a5ed-80f1-408c-ba9b-6e0b38503098">
+            <componentMoniker
+              Id="1abbce1f-e3f2-41e8-a048-60411a20a5b8"
+              LastKnownName="cors-http-server.py"
+              LastKnownLocation="ModelingProject1.uml" />
+          </dependency>
+          <dependency
+            Id="b91d2a30-9bae-4e25-b36a-56d023a4dda8">
+            <componentMoniker
+              Id="dff32e03-3e9f-481c-adb6-4f00fffc9c15"
+              LastKnownName="youtube_service.py"
+              LastKnownLocation="ModelingProject1.uml" />
+          </dependency>
+          <dependency
+            Id="d191adf8-11f5-4ebc-ba28-a2f8ae8e9999">
+            <componentMoniker
+              Id="a0d1c316-750e-4ebc-8fc4-b5c43d1605d9"
+              LastKnownName="venv"
+              LastKnownLocation="ModelingProject1.uml" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="dff32e03-3e9f-481c-adb6-4f00fffc9c15"
+        name="youtube_service.py"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="d0833421-6eb2-4bc1-b9b7-9dc1e6e344e0">
+            <componentMoniker
+              Id="a0d1c316-750e-4ebc-8fc4-b5c43d1605d9"
+              LastKnownName="venv"
+              LastKnownLocation="ModelingProject1.uml" />
+          </dependency>
+          <dependency
+            Id="c7160321-016d-4b24-9f84-92c9d9641ec8">
+            <componentMoniker
+              Id="df0cb29b-aa39-46bc-a475-da431a31bccf"
+              LastKnownName="Statistics.db"
+              LastKnownLocation="ModelingProject1.uml" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="73bf1070-a9ce-4604-8af1-b9567b7c8b44"
+        name="conf.js"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <requiredInterface
+            Id="c8517262-5b87-4376-bfac-7e5245bc0f75"
+            name="Port1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false"
+            isService="false"
+            isBehavior="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="cb7c63fb-bc0d-4e76-ae27-4f365f2bab78"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="9dd956af-a147-4a68-afb3-53b524312aaa"
+        name="popup.html"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="72b78282-c542-4d84-822d-036250f5e9b8">
+            <componentMoniker
+              Id="73bf1070-a9ce-4604-8af1-b9567b7c8b44"
+              LastKnownName="conf.js"
+              LastKnownLocation="ModelingProject1.uml" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="29ff7325-7646-4dfd-a0ff-76b5b092ee8c"
+        name="manifest.json"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="b62dba00-55c9-45b8-992e-788b763fe2c7">
+            <componentMoniker
+              Id="9dd956af-a147-4a68-afb3-53b524312aaa"
+              LastKnownName="popup.html"
+              LastKnownLocation="ModelingProject1.uml" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <component
+        Id="a0d1c316-750e-4ebc-8fc4-b5c43d1605d9"
+        name="venv"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="755da292-0bf5-440f-8a51-eac1b914021e"
+        name="Interface1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="1b47a629-133e-4d83-a8a6-de7843c60cc4"
+        name="Interface2"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="cb7c63fb-bc0d-4e76-ae27-4f365f2bab78"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="4c2b4bc9-e0ed-446b-8e8a-67ccf4a53f4c"
+        name="HTTP/HTTPS"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

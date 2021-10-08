@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="0a959955-053a-4931-91fe-ae44655174e6" name="Activity1" linkedPackageId="56755203-4b10-4db6-acb6-d8072bbf1e78" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="3ecbab8f-bd53-45e9-a712-313490a417b7">
+      <profileInstance Id="009a4f06-1e25-4d1b-9a8d-4d07945c1d55" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="9c3d26f1-6b3f-4d43-9f53-4e35abdb0b53">
+      <profileInstance Id="18eff573-5b64-4ba9-a16e-3f2072d92429" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="13eb94e6-9394-4382-ba3c-94e17cd0b07f" name="Activity1" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="d3d94d3f-b9ec-42c3-8fda-aa5e3e0f91dd" />
+        <nodes>
+          <initialNode Id="cd15cfcf-2b20-4bbe-8464-223693fcf53c" name="Initial1" isLeaf="false">
+            <elementDefinition Id="e2da5f7f-0d8c-49cc-a1fd-69b67904c311" />
+            <flowNodeTargets>
+              <controlFlow Id="c7be3af5-4260-4810-8715-fa10bdeed329" isLeaf="false">
+                <decisionNodeMoniker Id="df8a0a9d-9084-4f88-9ba4-c7c09df4065c" LastKnownName="Decision1" />
+                <elementDefinition Id="e200739c-a67a-4a6f-a066-dcfcd11ca695" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="e32469ee-f433-4b84-8e95-71ac1990c483" name="Открыть список спонсоров" isLeaf="false">
+            <elementDefinition Id="072e85a5-c549-47f8-8c13-15c45eef3419" />
+            <flowNodeTargets>
+              <controlFlow Id="e03f9244-6ac1-47e1-a2ce-beac73b0f01e" isLeaf="false">
+                <opaqueActionMoniker Id="57013d88-4e56-474c-a89e-a66b5e98aa6a" LastKnownName="Добавить спонсора на мероприятие" />
+                <elementDefinition Id="7ba51ce6-933b-448c-807b-3f420a25219d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="b694d36c-bfe2-41a1-8e19-11105915fee6" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="62acf01c-97ed-4cd6-99ec-615f474d3bf3" />
+          </activityFinalNode>
+          <opaqueAction Id="57013d88-4e56-474c-a89e-a66b5e98aa6a" name="Добавить спонсора на мероприятие" isLeaf="false">
+            <elementDefinition Id="60738991-bab3-46b0-a6bc-f67cc6ce8463" />
+            <flowNodeTargets>
+              <controlFlow Id="42e41ec5-556d-49c3-bdb2-cf650b69182b" isLeaf="false">
+                <mergeNodeMoniker Id="a8923f04-3508-4c44-9f21-9a9db1eec004" LastKnownName="Merge1" />
+                <elementDefinition Id="42ca9cbd-0655-43fc-b36f-288d56ce4b67" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="dd1322c5-01f8-4192-bc85-228f6c8aceb3" name="Открыть вкладку вознаграждение" isLeaf="false">
+            <elementDefinition Id="a918ed05-013e-4c4b-9cac-49783be52d90" />
+            <flowNodeTargets>
+              <controlFlow Id="1b19359c-c68d-4e0b-8959-fcb633693659" isLeaf="false">
+                <opaqueActionMoniker Id="639ea357-6629-4e49-a614-8e1d8cc8dbc9" LastKnownName="Ввести сумму вознаграждения" />
+                <elementDefinition Id="c69b9b0d-a100-49e0-b53a-37bc0bc97f8a" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="639ea357-6629-4e49-a614-8e1d8cc8dbc9" name="Ввести сумму вознаграждения" isLeaf="false">
+            <elementDefinition Id="93fb03b2-23e9-49e4-a913-40d883351f1e" />
+            <flowNodeTargets>
+              <controlFlow Id="849ed3f6-42e3-4ac8-812e-53b6b566acb1" isLeaf="false">
+                <opaqueActionMoniker Id="784ef2ce-2f87-4222-ba6b-93d5e2d63324" LastKnownName="Распределить вознаграждение по местам" />
+                <elementDefinition Id="6b48469e-7b88-4b5f-8560-ca7bb268d40c" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="784ef2ce-2f87-4222-ba6b-93d5e2d63324" name="Распределить вознаграждение по местам" isLeaf="false">
+            <elementDefinition Id="d9a6844d-2b51-4f65-b03e-8f93fe634c37" />
+            <flowNodeTargets>
+              <controlFlow Id="c72071eb-8fc4-47db-a0e8-1070b0ba6498" isLeaf="false">
+                <mergeNodeMoniker Id="a8923f04-3508-4c44-9f21-9a9db1eec004" LastKnownName="Merge1" />
+                <elementDefinition Id="b3b6377e-3624-485b-8dc4-b9e428224c5b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="b4c0655f-bee6-4fe6-9d45-13a746273227" name="Ввести данные в БД" isLeaf="false">
+            <elementDefinition Id="60999932-d757-440d-b953-dc631ae421e1" />
+            <flowNodeTargets>
+              <controlFlow Id="e3bc21ef-f4d8-4b78-8b37-927344526c00" isLeaf="false">
+                <activityFinalNodeMoniker Id="b694d36c-bfe2-41a1-8e19-11105915fee6" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="7f1a94e5-6937-4f76-a45b-3af695c92d7a" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="df8a0a9d-9084-4f88-9ba4-c7c09df4065c" name="Decision1" isLeaf="false">
+            <elementDefinition Id="f3f23551-8b3c-466b-965d-44e65de2ad0b" />
+            <flowNodeTargets>
+              <controlFlow Id="0bb18218-db34-4972-bf69-7a5ac8816568" guard="Распределить вознаграждение" isLeaf="false">
+                <opaqueActionMoniker Id="dd1322c5-01f8-4192-bc85-228f6c8aceb3" LastKnownName="Открыть вкладку вознаграждение" />
+                <elementDefinition Id="891033db-0fe2-4c57-b77b-902599bd0c2b" />
+              </controlFlow>
+              <controlFlow Id="d65ffbd6-0265-46fa-83cd-8175a138a83a" guard="Добавить спонсоров" isLeaf="false">
+                <opaqueActionMoniker Id="e32469ee-f433-4b84-8e95-71ac1990c483" LastKnownName="Открыть список спонсоров" />
+                <elementDefinition Id="bac05e86-0ec1-4227-9abe-08b9c15bc8ea" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <mergeNode Id="a8923f04-3508-4c44-9f21-9a9db1eec004" name="Merge1" isLeaf="false">
+            <elementDefinition Id="6c9d39c5-a0c6-40f9-a4e6-20f2a923846c" />
+            <flowNodeTargets>
+              <controlFlow Id="4ba730e8-fc03-48c9-9511-133bc50b5fe5" isLeaf="false">
+                <opaqueActionMoniker Id="b4c0655f-bee6-4fe6-9d45-13a746273227" LastKnownName="Ввести данные в БД" />
+                <elementDefinition Id="baaa1fe8-c059-4b2c-a533-3dd855e44635" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="56755203-4b10-4db6-acb6-d8072bbf1e78" name="ModelingProject1">
+    <elementDefinition Id="18cff498-dd70-48ad-95cd-4313afe8e943" />
+  </package>
+</activityRootModel>

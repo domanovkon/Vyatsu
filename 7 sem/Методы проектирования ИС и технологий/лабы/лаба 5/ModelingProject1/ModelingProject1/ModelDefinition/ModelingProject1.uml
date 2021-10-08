@@ -1,0 +1,966 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner"
+  dslVersion="1.0.0.0"
+  Id="18cff498-dd70-48ad-95cd-4313afe8e943"
+  name="ModelingProject1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="548eb591-f152-46a5-b20a-7c7c84087c99"
+        name="Ораганизатор"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="b3098faa-d2c5-4ad3-96f8-eb32e2008f05"
+            isDerived="false"
+            sourceEndRoleName="Ораганизатор"
+            targetEndRoleName="Составить список всех участников соревнования"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="0daabde2-5459-4f63-a54f-776f600c621b"
+              LastKnownName="Составить список всех участников соревнования"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="007cab39-47d5-4e5b-b3c6-bf465950d2d8"
+                  name="Ораганизатор"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0428a867-d394-4cdf-b87f-c27af8e60a93"
+                  name="Составить список всех участников соревнования"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="6a60fac0-5d15-47e9-bfa1-c0984cfae577"
+            isDerived="false"
+            sourceEndRoleName="Ораганизатор"
+            targetEndRoleName="Выбрать вознаграждение"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="80b019f9-2c99-4aa6-9ef0-fc2d37c6d458"
+              LastKnownName="Выбрать вознаграждение"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="72504b5d-09b0-4620-8852-559ca326d8fd"
+                  name="Ораганизатор"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8798cf0f-8215-43c0-8b5a-8d5bebc343e0"
+                  name="Выбрать вознаграждение"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="aced4927-f574-4185-8d2f-adb6e1378767"
+            isDerived="false"
+            sourceEndRoleName="Ораганизатор"
+            targetEndRoleName="Составить расписание"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f5a7a978-9b98-4b04-a408-26b0d77cabdc"
+              LastKnownName="Составить расписание"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fb019646-99a3-4041-a96d-e6f4d04e9fea"
+                  name="Ораганизатор"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bbb7b1d6-1ec9-4b15-b34d-31be4274b6e6"
+                  name="Составить расписание"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="22c9fe04-d893-42b6-b033-2ba72fad1160"
+            isDerived="false"
+            sourceEndRoleName="Ораганизатор"
+            targetEndRoleName="Провести соревнование"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="29d7d966-bac0-4598-ad78-d7fadabda113"
+              LastKnownName="Провести соревнование"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8c33e3fa-4bc2-4211-8067-428dd830ab7d"
+                  name="Ораганизатор"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="97c0321d-7b03-4cfe-b3fe-80b4e3dad6f5"
+                  name="Провести соревнование"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0daabde2-5459-4f63-a54f-776f600c621b"
+        name="Составить список всех участников соревнования"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="ef9bb215-476a-43d4-a8dd-b79f1ef3f50d">
+            <useCaseMoniker
+              Id="c5a8ee6e-aeb9-4f7e-9492-8108e85d3a3f"
+              LastKnownName="Зарегистрировать спортсмена"
+              LastKnownLocation="ModelingProject1.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="80b019f9-2c99-4aa6-9ef0-fc2d37c6d458"
+        name="Выбрать вознаграждение"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="d7fa6c2a-bb1d-49f3-9e65-50289e9a526b">
+            <useCaseMoniker
+              Id="35490fc2-4d89-4f6c-ada8-8bca2460fbaa"
+              LastKnownName="Сформировать вознаграждение"
+              LastKnownLocation="ModelingProject1.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f5a7a978-9b98-4b04-a408-26b0d77cabdc"
+        name="Составить расписание"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="7caf94ac-2275-45b2-ba62-c26d9ad867f3">
+            <useCaseMoniker
+              Id="5cd67a03-53b2-4dc9-8557-d576fe3f9429"
+              LastKnownName="Выбрать судейскую бригаду"
+              LastKnownLocation="ModelingProject1.uml" />
+          </include>
+          <include
+            Id="d2b3cf99-37bd-4bb7-97d7-84299b828c86">
+            <useCaseMoniker
+              Id="28d3f02c-b46d-46e5-a506-642317cb1f12"
+              LastKnownName="Выбрать спортивную площадку"
+              LastKnownLocation="ModelingProject1.uml" />
+          </include>
+          <include
+            Id="6e9ccc85-7511-4bf7-8a86-1c0c102baff5">
+            <useCaseMoniker
+              Id="a176d50a-1583-4083-930a-43238018f8eb"
+              LastKnownName="Выбрать спортсменов"
+              LastKnownLocation="ModelingProject1.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="29d7d966-bac0-4598-ad78-d7fadabda113"
+        name="Провести соревнование"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="f9b3a956-0dcf-461a-bc80-147f3b3c1fa6">
+            <useCaseMoniker
+              Id="39d29a0c-c7ea-483a-9d69-45a15686f6ea"
+              LastKnownName="Загрузить итоги состязаний"
+              LastKnownLocation="ModelingProject1.uml" />
+          </include>
+          <include
+            Id="8bd8417b-eb2b-43e0-a19b-07f48e013ce6">
+            <useCaseMoniker
+              Id="e97cfb72-a931-4889-9ba7-5dfa1c7f0885"
+              LastKnownName="Распределить призовые"
+              LastKnownLocation="ModelingProject1.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6ec68ebc-4e9a-43ef-9dcc-e378113991d9"
+        name="Зарегистрировать спортсмена"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="626f82d5-9c03-47c4-8b7c-db7e5037769d"
+        name="Внести данные о спортсмене в общий реестр"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="67092968-6e5c-4a27-8fd1-acc5bb346f90"
+        name="Оценить спонсоров"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="3d7d8b04-1e42-4e95-bb84-06ca9dec8404">
+            <useCaseMoniker
+              Id="80b019f9-2c99-4aa6-9ef0-fc2d37c6d458"
+              LastKnownName="Выбрать вознаграждение"
+              LastKnownLocation="ModelingProject1.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="35490fc2-4d89-4f6c-ada8-8bca2460fbaa"
+        name="Сформировать вознаграждение"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="29fb5801-4d5a-45e0-b663-c5bf27b2fa4d">
+            <useCaseMoniker
+              Id="ff2022b2-2147-4e2a-b2db-305bfa97be57"
+              LastKnownName="Распределить вознаграждение в соответствии с призовыми местами"
+              LastKnownLocation="ModelingProject1.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5cd67a03-53b2-4dc9-8557-d576fe3f9429"
+        name="Выбрать судейскую бригаду"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="519f4a95-7e8d-4b19-9129-4e7108997990">
+            <useCaseMoniker
+              Id="58cb7a6d-5793-4381-ae01-1edb992aa365"
+              LastKnownName="Проверка конфликтов"
+              LastKnownLocation="ModelingProject1.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="bc9f401b-f509-4ea6-a643-b9b4f2255500"
+        name="Выбрать время проведения соревнования"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="d50f4ee6-49a4-4f50-ad68-06133317e702">
+            <useCaseMoniker
+              Id="58cb7a6d-5793-4381-ae01-1edb992aa365"
+              LastKnownName="Проверка конфликтов"
+              LastKnownLocation="ModelingProject1.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ff2022b2-2147-4e2a-b2db-305bfa97be57"
+        name="Распределить вознаграждение в соответствии с призовыми местами"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="39d29a0c-c7ea-483a-9d69-45a15686f6ea"
+        name="Загрузить итоги состязаний"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e97cfb72-a931-4889-9ba7-5dfa1c7f0885"
+        name="Распределить призовые"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="58cb7a6d-5793-4381-ae01-1edb992aa365"
+        name="Проверка конфликтов"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c5a8ee6e-aeb9-4f7e-9492-8108e85d3a3f"
+        name="Зарегистрировать спортсмена"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="28d3f02c-b46d-46e5-a506-642317cb1f12"
+        name="Выбрать спортивную площадку"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="d84baa15-8cd2-493f-a84b-ffa96f3ec082">
+            <useCaseMoniker
+              Id="bc9f401b-f509-4ea6-a643-b9b4f2255500"
+              LastKnownName="Выбрать время проведения соревнования"
+              LastKnownLocation="ModelingProject1.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a176d50a-1583-4083-930a-43238018f8eb"
+        name="Выбрать спортсменов"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="a30dfd46-de3b-4416-8801-c2a4d1e1bbf5">
+            <useCaseMoniker
+              Id="58cb7a6d-5793-4381-ae01-1edb992aa365"
+              LastKnownName="Проверка конфликтов"
+              LastKnownLocation="ModelingProject1.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="a1a52a37-1ca1-4b2d-b59f-c486d0669e63"
+        name="UMLActivityСоставить список всех участников"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="1a0b788d-4611-48e9-b8e6-fca01cf2e2f8"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="d6643c19-9dfa-4202-ac0f-cd9e9e027f67"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="ae6dbc20-1753-4289-af4a-0cde53df43f8"
+                  LastKnownName="Открыть список всех участников соревнования"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="7837e4d8-1d03-44a2-9d45-d63955207d9a"
+            name="Зарегистрировать&#xD;&#xA;спортсмена"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="b01b3798-78ad-4921-b554-7ac114a5f2cf"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="85dea56b-03f9-4889-9dc4-54986cf11bb1"
+                  LastKnownName="Внести данные о спортсмене в БД"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="678e7197-6324-4847-af2c-200f54a12cbf"
+            name="ActivityFinal1"
+            isLeaf="false" />
+          <opaqueAction
+            Id="85dea56b-03f9-4889-9dc4-54986cf11bb1"
+            name="Внести данные о спортсмене в БД"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="dc436be2-aae8-48cb-83a7-eed3dc07c6c4"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="678e7197-6324-4847-af2c-200f54a12cbf"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="ae6dbc20-1753-4289-af4a-0cde53df43f8"
+            name="Открыть список всех участников соревнования"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="5f867968-9be3-4b78-bb12-dd22ce164e49"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="7837e4d8-1d03-44a2-9d45-d63955207d9a"
+                  LastKnownName="Зарегистрировать&#xD;&#xA;спортсмена"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="d3d94d3f-b9ec-42c3-8fda-aa5e3e0f91dd"
+        name="Activity1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="e2da5f7f-0d8c-49cc-a1fd-69b67904c311"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="e200739c-a67a-4a6f-a066-dcfcd11ca695"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="f3f23551-8b3c-466b-965d-44e65de2ad0b"
+                  LastKnownName="Decision1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="072e85a5-c549-47f8-8c13-15c45eef3419"
+            name="Открыть список спонсоров"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="7ba51ce6-933b-448c-807b-3f420a25219d"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="60738991-bab3-46b0-a6bc-f67cc6ce8463"
+                  LastKnownName="Добавить спонсора на мероприятие"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="62acf01c-97ed-4cd6-99ec-615f474d3bf3"
+            name="ActivityFinal1"
+            isLeaf="false" />
+          <opaqueAction
+            Id="60738991-bab3-46b0-a6bc-f67cc6ce8463"
+            name="Добавить спонсора на мероприятие"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="42ca9cbd-0655-43fc-b36f-288d56ce4b67"
+                isLeaf="false">
+                <mergeNodeMoniker
+                  Id="6c9d39c5-a0c6-40f9-a4e6-20f2a923846c"
+                  LastKnownName="Merge1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="a918ed05-013e-4c4b-9cac-49783be52d90"
+            name="Открыть вкладку вознаграждение"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="c69b9b0d-a100-49e0-b53a-37bc0bc97f8a"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="93fb03b2-23e9-49e4-a913-40d883351f1e"
+                  LastKnownName="Ввести сумму вознаграждения"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="93fb03b2-23e9-49e4-a913-40d883351f1e"
+            name="Ввести сумму вознаграждения"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="6b48469e-7b88-4b5f-8560-ca7bb268d40c"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="d9a6844d-2b51-4f65-b03e-8f93fe634c37"
+                  LastKnownName="Распределить вознаграждение по местам"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="d9a6844d-2b51-4f65-b03e-8f93fe634c37"
+            name="Распределить вознаграждение по местам"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="b3b6377e-3624-485b-8dc4-b9e428224c5b"
+                isLeaf="false">
+                <mergeNodeMoniker
+                  Id="6c9d39c5-a0c6-40f9-a4e6-20f2a923846c"
+                  LastKnownName="Merge1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="60999932-d757-440d-b953-dc631ae421e1"
+            name="Ввести данные в БД"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="7f1a94e5-6937-4f76-a45b-3af695c92d7a"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="62acf01c-97ed-4cd6-99ec-615f474d3bf3"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="f3f23551-8b3c-466b-965d-44e65de2ad0b"
+            name="Decision1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="891033db-0fe2-4c57-b77b-902599bd0c2b"
+                guard="Распределить вознаграждение"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="a918ed05-013e-4c4b-9cac-49783be52d90"
+                  LastKnownName="Открыть вкладку вознаграждение"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="bac05e86-0ec1-4227-9abe-08b9c15bc8ea"
+                guard="Добавить спонсоров"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="072e85a5-c549-47f8-8c13-15c45eef3419"
+                  LastKnownName="Открыть список спонсоров"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <mergeNode
+            Id="6c9d39c5-a0c6-40f9-a4e6-20f2a923846c"
+            name="Merge1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="baaa1fe8-c059-4b2c-a533-3dd855e44635"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="60999932-d757-440d-b953-dc631ae421e1"
+                  LastKnownName="Ввести данные в БД"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="600badcb-b78b-401f-8bac-3d8e3ec22ab4"
+        name="Activity1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <activityFinalNode
+            Id="5627d918-5a2a-4c52-be0c-7ac5abff8538"
+            name="ActivityFinal1"
+            isLeaf="false" />
+          <opaqueAction
+            Id="6a65730d-4da8-4013-b1b0-aaaf592abe88"
+            name="Открыть вкладку расписание"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="b58b7d2e-52f3-4f7f-9596-90e9226c7617"
+                isLeaf="false">
+                <forkNodeMoniker
+                  Id="e0b3596b-404b-4d6a-8df2-f8e47ef6efd0"
+                  LastKnownName="Fork1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <initialNode
+            Id="16aa44f5-46b6-422f-85fc-5ff8dadfbb0f"
+            name="Initial11"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="f9dd02da-fa41-4025-8647-2d07da73e26c"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="6a65730d-4da8-4013-b1b0-aaaf592abe88"
+                  LastKnownName="Открыть вкладку расписание"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="d6079e7d-237a-43f8-99fd-1830eea1b67d"
+            name="Выбрать спортивную площадку"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="469a01ea-124a-413b-a26a-c7051e2e818d"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="18501721-94fb-4576-8f85-9526c3d679e3"
+                  LastKnownName="Выбрать свободное время на спортивной площадке"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="18501721-94fb-4576-8f85-9526c3d679e3"
+            name="Выбрать свободное время на спортивной площадке"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="dd0775f6-1e4c-4459-a4fa-52ad34ddba8f"
+                isLeaf="false">
+                <joinNodeMoniker
+                  Id="d80f41e6-b0b5-4ea8-801a-27c9f775e459"
+                  LastKnownName="Join1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="4656e880-da62-4598-b71b-6e6619f987b2"
+            name="Выбрать судейскую бригаду"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="d3053604-8687-40ac-94c2-3364ee94feae"
+                isLeaf="false">
+                <joinNodeMoniker
+                  Id="d80f41e6-b0b5-4ea8-801a-27c9f775e459"
+                  LastKnownName="Join1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="1f9fe86a-3b2e-4dcc-9f82-2da0ab3e4677"
+            name="Выбрать спортсменов"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="ad55939e-99f7-4392-942a-d915e3429483"
+                isLeaf="false">
+                <joinNodeMoniker
+                  Id="d80f41e6-b0b5-4ea8-801a-27c9f775e459"
+                  LastKnownName="Join1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="659b3d5f-1627-4283-9ea9-f4e533ed68fe"
+            name="Проверить конфлкикты"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="de512d88-bcf7-40f8-bd51-7d675842a076"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="a259854c-248f-484b-a580-eff804d7f90a"
+                  LastKnownName="Ввести данные в БД"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="a259854c-248f-484b-a580-eff804d7f90a"
+            name="Ввести данные в БД"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="6c6a4f6c-e9bb-4841-bbf5-55412883f552"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="5627d918-5a2a-4c52-be0c-7ac5abff8538"
+                  LastKnownName="ActivityFinal1"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <forkNode
+            Id="e0b3596b-404b-4d6a-8df2-f8e47ef6efd0"
+            name="Fork1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="45fe11d9-21c4-4d74-98af-cb195941c28e"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="4656e880-da62-4598-b71b-6e6619f987b2"
+                  LastKnownName="Выбрать судейскую бригаду"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="3462440e-301f-48cc-a098-5de787826b2c"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="1f9fe86a-3b2e-4dcc-9f82-2da0ab3e4677"
+                  LastKnownName="Выбрать спортсменов"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="28ce760e-1a11-4278-8e76-5806e0d210e2"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="d6079e7d-237a-43f8-99fd-1830eea1b67d"
+                  LastKnownName="Выбрать спортивную площадку"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </forkNode>
+          <joinNode
+            Id="d80f41e6-b0b5-4ea8-801a-27c9f775e459"
+            name="Join1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="88da443f-4282-425b-bdae-7d4c7848ae98"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="659b3d5f-1627-4283-9ea9-f4e533ed68fe"
+                  LastKnownName="Проверить конфлкикты"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </joinNode>
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="2188fd29-100d-496f-b373-a39b993612ce"
+        name="UMLActivityПровестиСоревнование"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="790de075-f2a0-4de9-ba98-e6cfcc83e03d"
+            name="Initial111"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="780b8e3a-9103-47fd-b9f7-e6fe63bd702a"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="ecdad10d-4aaa-4d52-8ab0-f5fd715b5d9d"
+                  LastKnownName="Открыть вкладку соревнование"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="ecdad10d-4aaa-4d52-8ab0-f5fd715b5d9d"
+            name="Открыть вкладку соревнование"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="3ff8f55d-43ba-49a5-9c5d-55b7a9cd8021"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="b946960f-5e46-46d4-8132-e40ad302c213"
+                  LastKnownName="Загрузить итоги соревнования"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="b946960f-5e46-46d4-8132-e40ad302c213"
+            name="Загрузить итоги соревнования"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="5eaa9179-6f7d-491c-8576-f6f601b3f820"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="d54aa141-d33a-41a0-a6b7-3b1b198e8a71"
+                  LastKnownName="Распределить возагрждение в соответствии с призовыми местами"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="d54aa141-d33a-41a0-a6b7-3b1b198e8a71"
+            name="Распределить возагрждение в соответствии с призовыми местами"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="7eac7a5c-48f3-4e4c-a1b4-e8faeb1adf0c"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="fe497cdb-affa-425a-ad91-b4466a04b846"
+                  LastKnownName="Внести информацию о проведении соревнования в БД"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode
+            Id="01a7d835-0b0f-4bb9-bd0c-ff58bc8dc7d8"
+            name="ActivityFinal11"
+            isLeaf="false" />
+          <opaqueAction
+            Id="fe497cdb-affa-425a-ad91-b4466a04b846"
+            name="Внести информацию о проведении соревнования в БД"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="845ef487-7ce2-495c-90d9-6ca956dec576"
+                isLeaf="false">
+                <activityFinalNodeMoniker
+                  Id="01a7d835-0b0f-4bb9-bd0c-ff58bc8dc7d8"
+                  LastKnownName="ActivityFinal11"
+                  LastKnownLocation="ModelingProject1.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

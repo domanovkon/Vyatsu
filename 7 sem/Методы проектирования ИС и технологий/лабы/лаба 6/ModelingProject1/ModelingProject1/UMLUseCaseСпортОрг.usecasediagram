@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="ee0079e1-82c0-447f-9343-be1b1f28abe0" name="UMLUseCaseСпортОрг" linkedPackageId="27aaf249-afc7-45da-a51a-3aeca4c70478" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="535e53f3-da98-4f88-9d11-328500efc4d9" name="Организатор" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="548eb591-f152-46a5-b20a-7c7c84087c99" />
+        <targetEnds>
+          <association Id="b5a80a37-78c6-41b9-b857-556684c8ffd1" isDerived="false" sourceEndRoleName="Ораганизатор" targetEndRoleName="Составить список всех участников соревнования" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3d46e311-a412-4c51-88c6-37e9a57ff6c4" LastKnownName="Составить список всех участников соревнования" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3d358f86-b9ef-4c7a-91fc-740afd080063" name="Ораганизатор" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="007cab39-47d5-4e5b-b3c6-bf465950d2d8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0279f18d-bd23-4b6c-bf65-aa14aee2e030" name="Составить список всех участников соревнования" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0428a867-d394-4cdf-b87f-c27af8e60a93" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b3098faa-d2c5-4ad3-96f8-eb32e2008f05" />
+          </association>
+          <association Id="0428d4c2-0536-48b5-8a4e-da11418a198d" isDerived="false" sourceEndRoleName="Ораганизатор" targetEndRoleName="Выбрать вознаграждение" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="0b11c251-f73a-46ac-8558-8fc81e83f1a0" LastKnownName="Выбрать вознаграждение" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8e18bccc-6e34-450b-8f90-7027f732e6ba" name="Ораганизатор" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="72504b5d-09b0-4620-8852-559ca326d8fd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="de7b9ef0-aa7b-483b-bf86-d6dae83dd8b1" name="Выбрать вознаграждение" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8798cf0f-8215-43c0-8b5a-8d5bebc343e0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6a60fac0-5d15-47e9-bfa1-c0984cfae577" />
+          </association>
+          <association Id="9beea76a-15e5-4905-817e-c6b6e21ba4af" isDerived="false" sourceEndRoleName="Ораганизатор" targetEndRoleName="Составить расписание" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="df389549-508a-4985-8aea-d8ea2c77f592" LastKnownName="Составить расписание" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="74523781-caad-496b-940d-82bfbabd4896" name="Ораганизатор" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fb019646-99a3-4041-a96d-e6f4d04e9fea" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b7c275a7-0ef2-4714-9ef2-7b2bd6a19171" name="Составить расписание" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="bbb7b1d6-1ec9-4b15-b34d-31be4274b6e6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="aced4927-f574-4185-8d2f-adb6e1378767" />
+          </association>
+          <association Id="9661fab3-92a3-41dc-be7d-04375f2c6314" isDerived="false" sourceEndRoleName="Ораганизатор" targetEndRoleName="Провести соревнование" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="efde0b30-768a-4b04-ad1b-bef1c37303a5" LastKnownName="Провести соревнование" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1faa8570-bf6d-4518-89ef-8bdbaae517bf" name="Ораганизатор" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8c33e3fa-4bc2-4211-8067-428dd830ab7d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="301ce74f-ce8c-4cab-92aa-ec458ba3ec98" name="Провести соревнование" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="97c0321d-7b03-4cfe-b3fe-80b4e3dad6f5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="22c9fe04-d893-42b6-b033-2ba72fad1160" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3d46e311-a412-4c51-88c6-37e9a57ff6c4" name="Составить список всех участников соревнования" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0daabde2-5459-4f63-a54f-776f600c621b" />
+        <additions>
+          <include Id="cbc14dc2-4a9b-400b-bb14-bc81ccd851a6">
+            <useCaseMoniker Id="c13812c9-8fdf-45e2-859e-e557a39df6d7" LastKnownName="Зарегистрировать спортсмена" />
+            <elementDefinition Id="ef9bb215-476a-43d4-a8dd-b79f1ef3f50d" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="0b11c251-f73a-46ac-8558-8fc81e83f1a0" name="Выбрать вознаграждение" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="80b019f9-2c99-4aa6-9ef0-fc2d37c6d458" />
+        <additions>
+          <include Id="3397e54c-052e-4a63-b4fc-4874b368aebd">
+            <useCaseMoniker Id="2560e4e6-dd6d-4bf9-97a4-063c144f187e" LastKnownName="Сформировать вознаграждение" />
+            <elementDefinition Id="d7fa6c2a-bb1d-49f3-9e65-50289e9a526b" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="df389549-508a-4985-8aea-d8ea2c77f592" name="Составить расписание" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f5a7a978-9b98-4b04-a408-26b0d77cabdc" />
+        <additions>
+          <include Id="f93b6988-ba51-4fc6-94d2-def00955df42">
+            <useCaseMoniker Id="c69eb51b-34bc-4a73-8ca3-4781a10e79e6" LastKnownName="Выбрать судейскую бригаду" />
+            <elementDefinition Id="7caf94ac-2275-45b2-ba62-c26d9ad867f3" />
+          </include>
+          <include Id="5d33ba69-73d9-407b-b8e1-603d578c714c">
+            <useCaseMoniker Id="a8338296-dcd9-43aa-8bcc-9c7b689f2902" LastKnownName="Выбрать спортивную площадку" />
+            <elementDefinition Id="d2b3cf99-37bd-4bb7-97d7-84299b828c86" />
+          </include>
+          <include Id="035e8825-5a4f-49c5-8e13-0ea8833529e3">
+            <useCaseMoniker Id="ce20d229-c887-4ddd-87d2-3776f6874df1" LastKnownName="Выбрать спортсменов" />
+            <elementDefinition Id="6e9ccc85-7511-4bf7-8a86-1c0c102baff5" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="efde0b30-768a-4b04-ad1b-bef1c37303a5" name="Провести соревнование" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="29d7d966-bac0-4598-ad78-d7fadabda113" />
+        <additions>
+          <include Id="5ad62129-bbc8-4ac8-8fde-aef626d2318e">
+            <useCaseMoniker Id="ce3aaedc-aa0b-4850-bd83-200913bef094" LastKnownName="Загрузить итоги состязаний" />
+            <elementDefinition Id="f9b3a956-0dcf-461a-bc80-147f3b3c1fa6" />
+          </include>
+          <include Id="9b89bfc4-1406-4812-80d4-bd2b60dac1ad">
+            <useCaseMoniker Id="71c6f44f-131c-48ea-ac5e-b52d910e1f00" LastKnownName="Распределить призовые" />
+            <elementDefinition Id="8bd8417b-eb2b-43e0-a19b-07f48e013ce6" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="54c8a3c0-3ac7-4ec9-9e6d-0e6c89644159" name="Оценить спонсоров" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="67092968-6e5c-4a27-8fd1-acc5bb346f90" />
+        <extendedCases>
+          <extend Id="d0dc1115-c775-4ab4-9bc2-620f81bba5fd">
+            <useCaseMoniker Id="0b11c251-f73a-46ac-8558-8fc81e83f1a0" LastKnownName="Выбрать вознаграждение" />
+            <elementDefinition Id="3d7d8b04-1e42-4e95-bb84-06ca9dec8404" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="2560e4e6-dd6d-4bf9-97a4-063c144f187e" name="Сформировать вознаграждение" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="35490fc2-4d89-4f6c-ada8-8bca2460fbaa" />
+        <additions>
+          <include Id="e2ea8444-a541-489d-8e12-42d233f86d44">
+            <useCaseMoniker Id="9ff7b3c7-c5ce-4596-a40c-319cfa88bb35" LastKnownName="Распределить вознаграждение в соответствии с призовыми местами" />
+            <elementDefinition Id="29fb5801-4d5a-45e0-b663-c5bf27b2fa4d" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c69eb51b-34bc-4a73-8ca3-4781a10e79e6" name="Выбрать судейскую бригаду" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5cd67a03-53b2-4dc9-8557-d576fe3f9429" />
+        <additions>
+          <include Id="46afa658-7c95-4be5-8330-cd793d660208">
+            <useCaseMoniker Id="a8e069fd-0012-4236-8eeb-f03f056c97ac" LastKnownName="Проверка конфликтов" />
+            <elementDefinition Id="519f4a95-7e8d-4b19-9129-4e7108997990" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e34a20ee-aefd-4235-8a4a-1abea40e6d32" name="Выбрать время проведения соревнования" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bc9f401b-f509-4ea6-a643-b9b4f2255500" />
+        <additions>
+          <include Id="49aef60d-aba7-4786-a22c-aff9090b52f7">
+            <useCaseMoniker Id="a8e069fd-0012-4236-8eeb-f03f056c97ac" LastKnownName="Проверка конфликтов" />
+            <elementDefinition Id="d50f4ee6-49a4-4f50-ad68-06133317e702" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9ff7b3c7-c5ce-4596-a40c-319cfa88bb35" name="Распределить вознаграждение в соответствии с призовыми местами" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ff2022b2-2147-4e2a-b2db-305bfa97be57" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="ce3aaedc-aa0b-4850-bd83-200913bef094" name="Загрузить итоги состязаний" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="39d29a0c-c7ea-483a-9d69-45a15686f6ea" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="71c6f44f-131c-48ea-ac5e-b52d910e1f00" name="Распределить призовые" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e97cfb72-a931-4889-9ba7-5dfa1c7f0885" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a8e069fd-0012-4236-8eeb-f03f056c97ac" name="Проверка конфликтов" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="58cb7a6d-5793-4381-ae01-1edb992aa365" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c13812c9-8fdf-45e2-859e-e557a39df6d7" name="Зарегистрировать спортсмена" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c5a8ee6e-aeb9-4f7e-9492-8108e85d3a3f" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a8338296-dcd9-43aa-8bcc-9c7b689f2902" name="Выбрать спортивную площадку" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="28d3f02c-b46d-46e5-a506-642317cb1f12" />
+        <additions>
+          <include Id="140bbce5-30d2-48c9-b0f8-1e0a3a27db31">
+            <useCaseMoniker Id="e34a20ee-aefd-4235-8a4a-1abea40e6d32" LastKnownName="Выбрать время проведения соревнования" />
+            <elementDefinition Id="d84baa15-8cd2-493f-a84b-ffa96f3ec082" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="ce20d229-c887-4ddd-87d2-3776f6874df1" name="Выбрать спортсменов" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a176d50a-1583-4083-930a-43238018f8eb" />
+        <additions>
+          <include Id="9d564b2e-4046-4d29-87a6-aa914dd35f10">
+            <useCaseMoniker Id="a8e069fd-0012-4236-8eeb-f03f056c97ac" LastKnownName="Проверка конфликтов" />
+            <elementDefinition Id="a30dfd46-de3b-4416-8801-c2a4d1e1bbf5" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="27aaf249-afc7-45da-a51a-3aeca4c70478" name="ModelingProject1">
+    <elementDefinition Id="18cff498-dd70-48ad-95cd-4313afe8e943" />
+    <profileInstances>
+      <packageHasProfileInstances Id="d9d1a7e1-71cc-4370-94cc-c654e37281aa">
+        <profileInstance Id="b5131c01-e1d7-4aa0-9921-57d8f78fbd37" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="b0bf143c-bd5b-4bcf-9929-05f5950d8b82">
+        <profileInstance Id="b0d1b19e-4330-4189-9206-4cf6ce7b4ed3" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

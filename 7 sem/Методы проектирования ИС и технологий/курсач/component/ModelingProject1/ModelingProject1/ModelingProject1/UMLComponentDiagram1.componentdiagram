@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="a6de699b-5b90-46ad-9037-819721550a32" name="UMLComponentDiagram1" linkedPackageId="ef08a299-a78c-4c1a-a172-2c99a9afa8eb" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="f0998893-04fb-4c7d-a425-28f0eabdcadf" name="Web-браузер" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="858449c3-cfc1-425f-99cf-3a57d09ea585" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="aa4d28ec-e7b1-46d2-bf96-18d50a4f2c9c" name="CGI-сервер" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="82532a0c-b8a9-44d4-9e78-1c6ce57f9ed6" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="e15189bd-159d-442d-b747-de9f1f6f593e" name="СУБД" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d4eb2cc1-40cf-4885-bac2-1a18115cf891" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="2daca343-6960-4485-b3d8-02bb055522ed" name="Statistics.db" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="df0cb29b-aa39-46bc-a475-da431a31bccf" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="6bfefefd-8675-40bd-88ad-51bcabaa6b5b" name="cors-http-server.py" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1abbce1f-e3f2-41e8-a048-60411a20a5b8" />
+        <suppliersInternal>
+          <dependency Id="8007d17c-5e08-45bb-8ebd-2610ea3f285b">
+            <componentMoniker Id="de14f3b8-bc67-4f51-84f7-0e3d02558aa4" LastKnownName="analys.py" />
+            <elementDefinition Id="d4e6d1f6-aeb6-44b9-8256-8dc525309031" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <providedInterface Id="dff5e2a2-d12b-430f-bcfb-f46c5961cfc9" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="4aad65fd-050f-434f-b349-b299051f28f2" />
+            <type_NamedElement>
+              <interfaceMoniker Id="618877a1-9559-4836-9dcb-2ae474b5b0fd" LastKnownName="HTTP/HTTPS" />
+            </type_NamedElement>
+          </providedInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="de14f3b8-bc67-4f51-84f7-0e3d02558aa4" name="analys.py" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3949145f-ba89-4548-8319-69859b8b68ef" />
+        <suppliersInternal>
+          <dependency Id="25ed85ef-5341-438a-80c1-14c97beca0cd">
+            <componentMoniker Id="6bfefefd-8675-40bd-88ad-51bcabaa6b5b" LastKnownName="cors-http-server.py" />
+            <elementDefinition Id="7030a5ed-80f1-408c-ba9b-6e0b38503098" />
+          </dependency>
+          <dependency Id="76b9df69-5552-45c5-bf69-9e418f72c817">
+            <componentMoniker Id="20a0c193-e6eb-4660-a273-e6397641d948" LastKnownName="youtube_service.py" />
+            <elementDefinition Id="b91d2a30-9bae-4e25-b36a-56d023a4dda8" />
+          </dependency>
+          <dependency Id="b5be1bfb-d95a-45e2-a101-560c62fd6914">
+            <componentMoniker Id="ad0a08ae-6a73-4e96-9eb9-d569351c14e7" LastKnownName="venv" />
+            <elementDefinition Id="d191adf8-11f5-4ebc-ba28-a2f8ae8e9999" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="20a0c193-e6eb-4660-a273-e6397641d948" name="youtube_service.py" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="dff32e03-3e9f-481c-adb6-4f00fffc9c15" />
+        <suppliersInternal>
+          <dependency Id="cf6360e7-a8ee-4f2e-a30b-d962bef8fb88">
+            <componentMoniker Id="ad0a08ae-6a73-4e96-9eb9-d569351c14e7" LastKnownName="venv" />
+            <elementDefinition Id="d0833421-6eb2-4bc1-b9b7-9dc1e6e344e0" />
+          </dependency>
+          <dependency Id="a14c4d39-994b-4bc4-b174-ec280b9695b8">
+            <componentMoniker Id="2daca343-6960-4485-b3d8-02bb055522ed" LastKnownName="Statistics.db" />
+            <elementDefinition Id="c7160321-016d-4b24-9f84-92c9d9641ec8" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="1805566b-c5df-47f8-bf0a-579ecac16674" name="conf.js" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="73bf1070-a9ce-4604-8af1-b9567b7c8b44" />
+        <ownedAttributesInternal>
+          <requiredInterface Id="2597eb20-1cc1-481f-9922-f068971e0b0c" name="Port1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isService="false" isBehavior="false">
+            <elementDefinition Id="c8517262-5b87-4376-bfac-7e5245bc0f75" />
+            <type_NamedElement>
+              <interfaceMoniker Id="b9089bf3-014e-4c7c-910a-35f368dcab0b" />
+            </type_NamedElement>
+          </requiredInterface>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="ec911aff-a979-476f-aaf7-5ab1fe56596d" name="popup.html" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9dd956af-a147-4a68-afb3-53b524312aaa" />
+        <suppliersInternal>
+          <dependency Id="119c4c6e-37df-4252-bb6c-f7c3f6d02b45">
+            <componentMoniker Id="1805566b-c5df-47f8-bf0a-579ecac16674" LastKnownName="conf.js" />
+            <elementDefinition Id="72b78282-c542-4d84-822d-036250f5e9b8" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="eaca8bea-15e7-4d20-85b6-8b1ccf0222b1" name="manifest.json" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="29ff7325-7646-4dfd-a0ff-76b5b092ee8c" />
+        <suppliersInternal>
+          <dependency Id="4113eb9f-8904-4bd7-b0a6-e1fc5c3e8da1">
+            <componentMoniker Id="ec911aff-a979-476f-aaf7-5ab1fe56596d" LastKnownName="popup.html" />
+            <elementDefinition Id="b62dba00-55c9-45b8-992e-788b763fe2c7" />
+          </dependency>
+        </suppliersInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="ad0a08ae-6a73-4e96-9eb9-d569351c14e7" name="venv" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a0d1c316-750e-4ebc-8fc4-b5c43d1605d9" />
+      </component>
+    </componentModelHasComponents>
+    <modelContainsNamedElements>
+      <Interface Id="b9089bf3-014e-4c7c-910a-35f368dcab0b" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cb7c63fb-bc0d-4e76-ae27-4f365f2bab78" />
+      </Interface>
+    </modelContainsNamedElements>
+    <modelContainsNamedElements>
+      <Interface Id="618877a1-9559-4836-9dcb-2ae474b5b0fd" name="HTTP/HTTPS" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4c2b4bc9-e0ed-446b-8e8a-67ccf4a53f4c" />
+      </Interface>
+    </modelContainsNamedElements>
+  </packagedElements>
+  <package Id="ef08a299-a78c-4c1a-a172-2c99a9afa8eb" name="ModelingProject1">
+    <elementDefinition Id="d4ce9eec-f499-46e5-b60c-f4dee8519116" />
+    <profileInstances>
+      <packageHasProfileInstances Id="e9dbdce8-468a-4357-83de-db88d9ae2882">
+        <profileInstance Id="33c390d3-3d93-4bce-ab05-174759be2664" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="f4641410-c399-4fac-a5b7-b50f602fbbfb">
+        <profileInstance Id="13086bf7-dec6-424d-a651-850a1c3098d2" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</componentModel>

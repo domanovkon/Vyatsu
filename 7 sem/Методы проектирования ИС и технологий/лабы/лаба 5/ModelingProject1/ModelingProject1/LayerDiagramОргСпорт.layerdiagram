@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="82704493-dbbd-4864-8ead-48a4936f532a" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="7e117fbd-6c65-4d8c-9965-8f12be4c077f" name="Клиент">
+      <childLayers>
+        <layer Id="560c42a6-6868-466c-8b05-c4d9ddeed443" name="Браузер" />
+      </childLayers>
+    </layer>
+    <layer Id="9596dcf9-d26f-46ac-9fa0-acc10abfdf25" name="Сервер">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="2fca6b9a-7655-43e9-87b5-2457ca566a1c" direction="Bidirectional">
+          <layerMoniker Id="7e117fbd-6c65-4d8c-9965-8f12be4c077f" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <childLayers>
+        <layer Id="8506bfa6-154b-4952-b710-3d33eefa244f" name="Рест Сервис" />
+        <layer Id="587329da-55e9-45bf-b8a7-550ee945239f" name="Контроллер">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="99f47354-07fe-468e-8df5-e71e6ab0d5ec" direction="Bidirectional">
+              <layerMoniker Id="8506bfa6-154b-4952-b710-3d33eefa244f" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="f13a7edb-b821-4580-8068-814ca622e2be" direction="Forward">
+              <layerMoniker Id="412df282-e547-4e54-aa75-6e00c20873aa" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="934f9c08-b20a-4677-b39c-fe8aea080573" direction="Bidirectional">
+              <layerMoniker Id="79222506-86f6-4fcc-a425-17599ff05ce1" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+        </layer>
+        <layer Id="b2b8f83b-70c4-4bc1-aded-8be9623e2bda" name="Модель">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="5c5f7cd6-36e9-47d1-b930-06c3e10ea61c" direction="Bidirectional">
+              <layerMoniker Id="587329da-55e9-45bf-b8a7-550ee945239f" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="2a9d07d4-6284-4059-977b-ba9081d43abd" direction="Bidirectional">
+              <layerMoniker Id="8d297693-6830-495b-9139-a84ec5af3e58" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+        </layer>
+      </childLayers>
+    </layer>
+    <layer Id="6e387170-536a-4d20-88fc-910f939ff63f" name="Сторонние системы">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="a6f1094b-5e33-483a-a1a7-180863e32eab" direction="Forward">
+          <layerMoniker Id="b2b8f83b-70c4-4bc1-aded-8be9623e2bda" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+    </layer>
+    <layer Id="8d297693-6830-495b-9139-a84ec5af3e58" name="СУБД">
+      <childLayers>
+        <layer Id="10921e7d-0b61-48d9-8625-b1738f366315" name="БД">
+          <childLayers>
+            <layer Id="412df282-e547-4e54-aa75-6e00c20873aa" name="Триггеры" />
+            <layer Id="79222506-86f6-4fcc-a425-17599ff05ce1" name="Хранимые процедуры" />
+          </childLayers>
+        </layer>
+      </childLayers>
+    </layer>
+  </layers>
+</layerModel>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLActivityПровестиСоревнование">
+  <activityRootModelMoniker Id="e3b936aa-7356-4962-ac88-e24b40f6c64d" />
+  <nestedChildShapes>
+    <initialNodeShape Id="da5e7950-0ab1-4e3f-b5f7-0bd221abeeef" absoluteBounds="9.375, 1.625, 0.125, 0.125" customColor="89, 89, 89">
+      <initialNodeMoniker Id="6876c97c-e2bf-4726-863c-efae29a65db5" LastKnownName="Initial111" />
+    </initialNodeShape>
+    <actionShape Id="ba47a522-62d3-4348-be69-37939d24ec37" absoluteBounds="8.875, 2.125, 1.125, 0.375" customColor="161, 199, 231">
+      <opaqueActionMoniker Id="16ec722c-2a65-43eb-b6f2-5861f30efa0e" LastKnownName="Открыть вкладку соревнование" />
+    </actionShape>
+    <actionShape Id="fbb8c31f-73aa-48e0-8b2d-e12100e8d247" absoluteBounds="8.875, 2.875, 1.125, 0.375" customColor="161, 199, 231">
+      <opaqueActionMoniker Id="73536eaf-dfa3-436a-8ea3-5295e40126a9" LastKnownName="Загрузить итоги соревнования" />
+    </actionShape>
+    <actionShape Id="afba3b11-c33e-46ad-9c5e-e553cd9cde65" absoluteBounds="8.875, 3.625, 1.125, 0.75" customColor="161, 199, 231">
+      <opaqueActionMoniker Id="f30071f6-63f3-4348-8d92-69a8f3eb4a67" LastKnownName="Распределить возагрждение в соответствии с призовыми местами" />
+    </actionShape>
+    <activityFinalNodeShape Id="9b9e39e6-0326-43b4-9f21-3d4751633cec" absoluteBounds="9.375, 6.375, 0.125, 0.125" customColor="89, 89, 89">
+      <activityFinalNodeMoniker Id="e2058055-5e50-4777-a3c6-dd201f1583a5" LastKnownName="ActivityFinal11" />
+    </activityFinalNodeShape>
+    <controlFlowConnector edgePoints="[(9.4375 : 1.75); (9.4375 : 2.125)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="d2e22708-7359-46f1-9400-e3cdc2d6b000" />
+      <relativeChildShapes />
+      <nodes>
+        <initialNodeShapeMoniker Id="da5e7950-0ab1-4e3f-b5f7-0bd221abeeef" />
+        <actionShapeMoniker Id="ba47a522-62d3-4348-be69-37939d24ec37" />
+      </nodes>
+    </controlFlowConnector>
+    <controlFlowConnector edgePoints="[(9.4375 : 2.5); (9.4375 : 2.875)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="a19ca382-a3f2-4870-a37c-e1f02a81e05e" />
+      <relativeChildShapes />
+      <nodes>
+        <actionShapeMoniker Id="ba47a522-62d3-4348-be69-37939d24ec37" />
+        <actionShapeMoniker Id="fbb8c31f-73aa-48e0-8b2d-e12100e8d247" />
+      </nodes>
+    </controlFlowConnector>
+    <controlFlowConnector edgePoints="[(9.4375 : 3.25); (9.4375 : 3.625)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="e2975084-50cc-49ae-9945-3ef07cf57cfb" />
+      <relativeChildShapes />
+      <nodes>
+        <actionShapeMoniker Id="fbb8c31f-73aa-48e0-8b2d-e12100e8d247" />
+        <actionShapeMoniker Id="afba3b11-c33e-46ad-9c5e-e553cd9cde65" />
+      </nodes>
+    </controlFlowConnector>
+    <actionShape Id="6804e0fc-3672-4e7e-a0d6-a60083b4f298" absoluteBounds="8.875, 4.875, 1.125, 0.75" customColor="161, 199, 231">
+      <opaqueActionMoniker Id="66aaca58-1e7a-429c-ac97-c3208fb327d9" LastKnownName="Внести информацию о проведении соревнования в БД" />
+    </actionShape>
+    <controlFlowConnector edgePoints="[(9.4375 : 4.375); (9.4375 : 4.875)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="2d39114c-fc77-4031-ab9d-1ddfcb7b5b9b" />
+      <relativeChildShapes />
+      <nodes>
+        <actionShapeMoniker Id="afba3b11-c33e-46ad-9c5e-e553cd9cde65" />
+        <actionShapeMoniker Id="6804e0fc-3672-4e7e-a0d6-a60083b4f298" />
+      </nodes>
+    </controlFlowConnector>
+    <controlFlowConnector edgePoints="[(9.4375 : 5.625); (9.4375 : 6.375)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black">
+      <controlFlowMoniker Id="d2ade899-3853-4de2-b024-9b73b53ea2f5" />
+      <relativeChildShapes />
+      <nodes>
+        <actionShapeMoniker Id="6804e0fc-3672-4e7e-a0d6-a60083b4f298" />
+        <activityFinalNodeShapeMoniker Id="9b9e39e6-0326-43b4-9f21-3d4751633cec" />
+      </nodes>
+    </controlFlowConnector>
+  </nestedChildShapes>
+</activityDiagram>

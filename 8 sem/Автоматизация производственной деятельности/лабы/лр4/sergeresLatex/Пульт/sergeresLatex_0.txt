@@ -1,0 +1,46 @@
+(11:12:55) INF_LOAD:Starting... sergeresLatex_0
+(11:12:55) INF_RTM:Detected NT5.RTM 5.1 
+(11:12:55) INF_RTM:Base TRACE MODE 6 Profiler T-Factory RTM+  ver. 6.09.0 
+(11:12:55) ._.:RTM 
+(11:12:55) INF_LOAD:max channel = 65535
+(11:12:55) INF_LOAD:Load Channels = 8
+(11:12:55) INF_LOAD:Templates=1 (math=0 sql=0 scr=1 doc=0 pnl=0) 
+(11:12:55) INF_LOAD:Objects = 3
+(11:12:55) INF_RTM:Timer=0.055s CalcLoop=550ms 
+(11:12:55) INF_LOAD:LoadTime=0.063s CalcPeriod=550ms 
+(11:12:55) INF_RTM:available(MB): pm=1847 vm=2047; free(MB): pm=1139 vm=1860 em=0 after load
+(11:12:55) INF_RTM:total use(MB): pm=707 vm=187 after load
+(11:12:55) INF_RTM:use(MB): pm=15(15) vm=18(18) pf=0 after load
+(11:12:55) INF_RTM:gh:14 uh:63 hh:68 after load
+(11:13:10) INF_IP:hostname is LAB236-05 
+(11:13:10) INF_IP:default ip addr not found 192.168.236.101
+(11:13:10) INF_IP:card0 addr=0.0.0.0 
+(11:13:10) INF_IP:card1 addr=10.202.0.63 
+(11:13:10) INF_IP:node1 find default ip=192.168.125.117:1025
+(11:13:10) INF_IP:soc_in_0 0.0.0.0:1025 
+(11:13:10) INF_IP:Create InSocket = 0
+(11:13:10) INF_IP:Mask for use cards 101
+(11:13:10) INF_IP:soc_out_0 0.0.0.0:1026 
+(11:13:10) INF_IP:Create OutSocket = 0
+(11:13:10) INF_IP:nib=256 Length of pocket=1452(70) IPSIZE=8192B,8192B(0) queue=64000 
+(11:13:10) INF_RTM:start time is 0.015 s 
+(11:13:10) INF_RTM:total use(MB): pm=736 vm=421 after start
+(11:13:10) INF_RTM:use(MB): pm=37(37) vm=102(102) pf=6739 after start
+(11:13:10) INF_RTM:gh:1556 uh:154 hh:180 after start
+(11:13:10) INF_FLT:ModeSwitch e15=0000 e18=0000 e20=0000 [0] 
+(11:13:10) INF_RTM:mode=2(Work) e15=00 e18=00 e20=00 [src4] 
+(11:13:10) INF_FLT:No detect condition 
+(11:13:10) INF_GRAPH:scr:1:popup=0 scrref=0 trend=0,0 update=1 
+(11:13:10) ERR_TCP:bind error 10013:EACCES for listen 0.0.0.0:1027  
+(11:13:10) INF_IP:node 0 have 10.202.0.63:1026 card=0 for udp r100 
+(11:13:10) INF_IP:node 1 have 10.202.0.69:1026 card=0 for udp r2 
+(11:13:12) INF_IP:node 0 have 10.202.0.69:1026 card=0 for udp r100 
+(11:13:13) INF_TCP:node 1 have 0.0.0.0 for connect 
+(11:13:13) INF_IP:node 0 have 10.202.0.63:1026 card=0 for udp r100 
+(11:13:14) INF_RTM:stoping... 
+(11:13:15) INF_RTM:mode=5(Stop) e15=00 e18=00 e20=00 [src0] 
+(11:13:15) ERR_TCP:bind error 10013:EACCES for listen 0.0.0.0:1027  
+(11:13:15) INF_IP:as=0 ls=0 ir=2 (max_Q=2) 
+(11:13:16) INF_RTM:stop time is 1.984 s 
+(11:13:16) INF_RTM:number of calculation = 3
+(11:13:16) INF_RTM:END OF WORK 

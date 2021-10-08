@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 13, 8.5" name="UMLComponentDiagram1">
+  <componentModelMoniker Id="0174ce0d-90df-43cf-aecd-9c9073b750fe" />
+  <nestedChildShapes>
+    <componentShape Id="a1e914aa-ff35-4018-82de-290d9f70e9cf" absoluteBounds="0.875, 2, 9.0761238644363, 6.2544656928921682" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="27499d72-b2f8-4e3e-82cb-ff5529bd7f5a" LastKnownName="Сервер" />
+      <nestedChildShapes>
+        <componentUseShape Id="cc00d19c-9658-4eb5-a928-7f285d0af0ff" absoluteBounds="1.25, 2.625, 1.742143608595645, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="aea0a46d-84b1-4de1-9e6b-794fe8c85bc7" LastKnownName="Организатор.cs" />
+        </componentUseShape>
+        <componentUseShape Id="1118e9ca-51c6-4dfd-9f38-b6ec069729ad" absoluteBounds="6, 6.5, 1.65324165173028, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="511025e2-49bb-47f0-b6ad-0c94efa69b52" LastKnownName="Спортсмен.cs" />
+        </componentUseShape>
+        <componentUseShape Id="a6149739-dd43-4120-a933-f0ac6bbdde1f" absoluteBounds="3.375, 2.625, 1.7609375312738109, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="5611f3b1-a3c1-4fae-883c-a11258838d66" LastKnownName="Мероприятие.cs" />
+        </componentUseShape>
+        <componentUseShape Id="d672dcff-0e02-4e27-a512-1a9efb83496f" absoluteBounds="8, 2.625, 1.7036458260503906, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="e76554a5-c955-4e5f-af50-2e61ca02d954" LastKnownName="Вид спорта.cs" />
+        </componentUseShape>
+        <componentUseShape Id="5172d1c9-7122-4019-b9f7-c35ffe9ca864" absoluteBounds="5.625, 2.625, 2.0630208131981416, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="47cddfcc-bb2b-42de-a663-c3803cb0768e" LastKnownName="Судейская бригада.cs" />
+        </componentUseShape>
+        <componentUseShape Id="4dffc654-e641-4394-b843-6f6e233e6f51" absoluteBounds="1.375, 4, 1.5, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="f074a406-642b-4d25-870e-d94b9e654ff4" LastKnownName="БД.cs" />
+        </componentUseShape>
+        <componentUseShape Id="6e23ddef-e329-451c-a905-dc47e7b0671f" absoluteBounds="3.25, 4, 1.9085453388275964, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="fd36476c-7295-4760-b127-50ea6a6ed768" LastKnownName="Призовой фонд.cs" />
+        </componentUseShape>
+        <componentUseShape Id="b818c112-f374-4b5b-8890-d038d96be593" absoluteBounds="5.5, 4, 2.8269441139482323, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="18d4397c-4c86-407c-8a02-8660c4e40a76" LastKnownName="Список участников соревнования.cs" />
+        </componentUseShape>
+        <componentUseShape Id="8884f869-1637-442a-b511-849c080e4ba6" absoluteBounds="4, 6.5, 1.5, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="a02093cf-ac45-46e3-a683-791e34602e46" LastKnownName="Команда.cs" />
+        </componentUseShape>
+        <componentUseShape Id="43d9c330-6303-42c1-8f9a-a44247f811e3" absoluteBounds="8, 6.5, 1.5, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="bc5cde7e-c40f-400e-bb6e-655ea642b0d1" LastKnownName="Спонсор.cs" />
+        </componentUseShape>
+        <componentUseShape Id="34c9ed2a-4528-423e-aee9-d2e0756f65cc" absoluteBounds="1.375, 5.25, 2.2228353068921161, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="8925e9ee-a650-4185-9c74-c318b593dde4" LastKnownName="Спортивная площадка.cs" />
+        </componentUseShape>
+        <componentUseShape Id="f99af7ee-63ed-4731-b804-25874ca36c5f" absoluteBounds="3.875, 5.25, 1.8796710702867681, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="070a7f97-b9c2-4e62-aa3a-26d16c6d772a" LastKnownName="ВзносСпорсора.cs" />
+        </componentUseShape>
+        <componentUseShape Id="54e4e5d8-920c-49de-8452-2d2fcbbb2f09" absoluteBounds="6.125, 5.25, 1.5, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="07eaede8-e675-4d93-9998-bf807d2b7554" LastKnownName="Судья.cs" />
+        </componentUseShape>
+        <componentUseShape Id="37bdf3f5-6f7c-4f22-8a2f-bec60ccef7f3" absoluteBounds="8, 5.25, 1.6490638304244261, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="edcd35f6-2fdf-45da-8a19-cd27d4b79883" LastKnownName="Расписание.cs" />
+        </componentUseShape>
+        <componentUseShape Id="144e785e-a5bd-450b-aacd-331cfc1866ab" absoluteBounds="1.375, 6.5, 2.0024003173563987, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="505e99a4-eab4-4f8e-8553-27c2253b7308" LastKnownName="Список категорий.cs" />
+        </componentUseShape>
+      </nestedChildShapes>
+    </componentShape>
+    <componentShape Id="ca0d4de9-d051-48ff-8b33-94496d2a11c7" absoluteBounds="10.75, 2.75, 2.0263601303100582, 1.6634958267211917" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="fb9507e7-99ad-4bf4-b060-bd113035c971" LastKnownName="Клиент" />
+      <nestedChildShapes>
+        <componentUseShape Id="6c53c61d-866c-4d0a-88a2-3f8b662ed56c" absoluteBounds="11.176360130310059, 3.3634958267211914, 1.5, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="b8d1d763-8b43-4de5-bbac-676756d3ed6a" LastKnownName="App.exe" />
+        </componentUseShape>
+      </nestedChildShapes>
+    </componentShape>
+    <componentShape Id="fba31771-be20-4443-9d99-7edd80751f17" absoluteBounds="10.75, 5, 2.0114184496558067, 1.6471741676330565" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="8c3eca4d-8187-4b47-b897-31bc9c02691b" LastKnownName="Сервер СУБД" />
+      <nestedChildShapes>
+        <componentUseShape Id="b4d1672c-6035-414c-91b4-e7431f9738f2" absoluteBounds="11.028164863586426, 5.5971741676330566, 1.5777312585404726, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+          <partMoniker Id="fb87a2a8-9298-4adc-931d-48f2436916ab" LastKnownName="Database.db" />
+        </componentUseShape>
+      </nestedChildShapes>
+    </componentShape>
+    <dependencyConnector edgePoints="[(10.75 : 3.5817479133606); (9.9511238644363 : 3.5817479133606)]" fixedFrom="Caller" fixedTo="Caller" customColor="Black">
+      <dependencyMoniker Id="84f66a94-fea8-4a26-83d6-094b17632312" />
+      <relativeChildShapes />
+      <nodes>
+        <componentShapeMoniker Id="ca0d4de9-d051-48ff-8b33-94496d2a11c7" />
+        <componentShapeMoniker Id="a1e914aa-ff35-4018-82de-290d9f70e9cf" />
+      </nodes>
+    </dependencyConnector>
+    <dependencyConnector edgePoints="[(9.9511238644363 : 5.82358708381653); (10.75 : 5.82358708381653)]" fixedFrom="Caller" fixedTo="Caller" customColor="Black">
+      <dependencyMoniker Id="787a9bb7-23c2-467d-a228-6e7a1484548a" />
+      <relativeChildShapes />
+      <nodes>
+        <componentShapeMoniker Id="a1e914aa-ff35-4018-82de-290d9f70e9cf" />
+        <componentShapeMoniker Id="fba31771-be20-4443-9d99-7edd80751f17" />
+      </nodes>
+    </dependencyConnector>
+  </nestedChildShapes>
+</componentDiagram>

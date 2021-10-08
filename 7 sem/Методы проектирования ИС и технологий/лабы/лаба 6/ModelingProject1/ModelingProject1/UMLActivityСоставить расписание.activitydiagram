@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="87cfa77a-4fb3-421c-ae0c-a6831c7c60af" name="Activity1" linkedPackageId="edc5d6af-81ab-469e-8f5e-efc790485ed1" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="c4d9158d-aa19-4504-a6f4-0947d7a2d26c" name="Activity1" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="600badcb-b78b-401f-8bac-3d8e3ec22ab4" />
+        <nodes>
+          <activityFinalNode Id="9990197f-ce37-481a-8b41-4965c516bb47" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="5627d918-5a2a-4c52-be0c-7ac5abff8538" />
+          </activityFinalNode>
+          <opaqueAction Id="2d59e346-2e8a-41c6-ae9c-a0f0cec21076" name="Открыть вкладку расписание" isLeaf="false">
+            <elementDefinition Id="6a65730d-4da8-4013-b1b0-aaaf592abe88" />
+            <flowNodeTargets>
+              <controlFlow Id="9414865e-31dc-4deb-baa0-37cde0ef370b" isLeaf="false">
+                <forkNodeMoniker Id="ffc04b1c-5074-4ca4-871c-eab984bb571e" LastKnownName="Fork1" />
+                <elementDefinition Id="b58b7d2e-52f3-4f7f-9596-90e9226c7617" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <initialNode Id="2dc5e947-6ba6-40d4-bfa7-0e670721cbec" name="Initial11" isLeaf="false">
+            <elementDefinition Id="16aa44f5-46b6-422f-85fc-5ff8dadfbb0f" />
+            <flowNodeTargets>
+              <controlFlow Id="f60b606d-9e8a-4995-b18b-4df9e4e4024c" isLeaf="false">
+                <opaqueActionMoniker Id="2d59e346-2e8a-41c6-ae9c-a0f0cec21076" LastKnownName="Открыть вкладку расписание" />
+                <elementDefinition Id="f9dd02da-fa41-4025-8647-2d07da73e26c" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="85e8cd2d-f20a-4548-b57e-7cf68c79088c" name="Выбрать спортивную площадку" isLeaf="false">
+            <elementDefinition Id="d6079e7d-237a-43f8-99fd-1830eea1b67d" />
+            <flowNodeTargets>
+              <controlFlow Id="54cd081d-112d-49a1-8c9e-5a9ad70af327" isLeaf="false">
+                <opaqueActionMoniker Id="ae4748e8-078c-4f3c-8497-5dcd1156a901" LastKnownName="Выбрать свободное время на спортивной площадке" />
+                <elementDefinition Id="469a01ea-124a-413b-a26a-c7051e2e818d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="ae4748e8-078c-4f3c-8497-5dcd1156a901" name="Выбрать свободное время на спортивной площадке" isLeaf="false">
+            <elementDefinition Id="18501721-94fb-4576-8f85-9526c3d679e3" />
+            <flowNodeTargets>
+              <controlFlow Id="d84eb0f2-7de0-457a-87ed-ebd2db39e362" isLeaf="false">
+                <joinNodeMoniker Id="45520c1e-8ec0-4854-bd53-cc565d86a14b" LastKnownName="Join1" />
+                <elementDefinition Id="dd0775f6-1e4c-4459-a4fa-52ad34ddba8f" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="b5f69607-bf67-4691-80c4-46edc57d8faa" name="Выбрать судейскую бригаду" isLeaf="false">
+            <elementDefinition Id="4656e880-da62-4598-b71b-6e6619f987b2" />
+            <flowNodeTargets>
+              <controlFlow Id="196892ee-b40d-4b39-ad85-ba1250d947d7" isLeaf="false">
+                <joinNodeMoniker Id="45520c1e-8ec0-4854-bd53-cc565d86a14b" LastKnownName="Join1" />
+                <elementDefinition Id="d3053604-8687-40ac-94c2-3364ee94feae" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="c8bdc7a4-94b8-4d1c-ac6f-2365c3a60abf" name="Выбрать спортсменов" isLeaf="false">
+            <elementDefinition Id="1f9fe86a-3b2e-4dcc-9f82-2da0ab3e4677" />
+            <flowNodeTargets>
+              <controlFlow Id="6e76bcd1-7705-4c53-b889-671bd1356c96" isLeaf="false">
+                <joinNodeMoniker Id="45520c1e-8ec0-4854-bd53-cc565d86a14b" LastKnownName="Join1" />
+                <elementDefinition Id="ad55939e-99f7-4392-942a-d915e3429483" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="81f82886-6e3d-4039-85f1-280307e914f3" name="Проверить конфлкикты" isLeaf="false">
+            <elementDefinition Id="659b3d5f-1627-4283-9ea9-f4e533ed68fe" />
+            <flowNodeTargets>
+              <controlFlow Id="4b72a907-c2c6-4b8a-aa83-ad3777845a26" isLeaf="false">
+                <opaqueActionMoniker Id="2be40c0e-fc36-4298-9ac6-4d64ae6b4f1d" LastKnownName="Ввести данные в БД" />
+                <elementDefinition Id="de512d88-bcf7-40f8-bd51-7d675842a076" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="2be40c0e-fc36-4298-9ac6-4d64ae6b4f1d" name="Ввести данные в БД" isLeaf="false">
+            <elementDefinition Id="a259854c-248f-484b-a580-eff804d7f90a" />
+            <flowNodeTargets>
+              <controlFlow Id="244af495-7aad-4c48-bf49-da31b516667c" isLeaf="false">
+                <activityFinalNodeMoniker Id="9990197f-ce37-481a-8b41-4965c516bb47" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="6c6a4f6c-e9bb-4841-bbf5-55412883f552" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <forkNode Id="ffc04b1c-5074-4ca4-871c-eab984bb571e" name="Fork1" isLeaf="false">
+            <elementDefinition Id="e0b3596b-404b-4d6a-8df2-f8e47ef6efd0" />
+            <flowNodeTargets>
+              <controlFlow Id="d3da7943-310e-4ba9-8b9e-8bd2ce5ac695" isLeaf="false">
+                <opaqueActionMoniker Id="b5f69607-bf67-4691-80c4-46edc57d8faa" LastKnownName="Выбрать судейскую бригаду" />
+                <elementDefinition Id="45fe11d9-21c4-4d74-98af-cb195941c28e" />
+              </controlFlow>
+              <controlFlow Id="1fdb5c43-a773-4c1a-b160-9d4208c31639" isLeaf="false">
+                <opaqueActionMoniker Id="c8bdc7a4-94b8-4d1c-ac6f-2365c3a60abf" LastKnownName="Выбрать спортсменов" />
+                <elementDefinition Id="3462440e-301f-48cc-a098-5de787826b2c" />
+              </controlFlow>
+              <controlFlow Id="539e9f0e-0d7a-4b49-9e5d-7b3dc299940f" isLeaf="false">
+                <opaqueActionMoniker Id="85e8cd2d-f20a-4548-b57e-7cf68c79088c" LastKnownName="Выбрать спортивную площадку" />
+                <elementDefinition Id="28ce760e-1a11-4278-8e76-5806e0d210e2" />
+              </controlFlow>
+            </flowNodeTargets>
+          </forkNode>
+          <joinNode Id="45520c1e-8ec0-4854-bd53-cc565d86a14b" name="Join1" isLeaf="false">
+            <elementDefinition Id="d80f41e6-b0b5-4ea8-801a-27c9f775e459" />
+            <flowNodeTargets>
+              <controlFlow Id="e0fe77a5-eb4e-41a9-881e-cc6eaec439b6" isLeaf="false">
+                <opaqueActionMoniker Id="81f82886-6e3d-4039-85f1-280307e914f3" LastKnownName="Проверить конфлкикты" />
+                <elementDefinition Id="88da443f-4282-425b-bdae-7d4c7848ae98" />
+              </controlFlow>
+            </flowNodeTargets>
+          </joinNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="edc5d6af-81ab-469e-8f5e-efc790485ed1" name="ModelingProject1">
+    <elementDefinition Id="18cff498-dd70-48ad-95cd-4313afe8e943" />
+    <profileInstances>
+      <packageHasProfileInstances Id="cb6c57aa-cec9-4f47-b705-72a79ec653e5">
+        <profileInstance Id="e26a6561-6ba8-4d62-bc2d-bcecabc925b6" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="8f466aac-25e4-481e-9d15-032d035c98f0">
+        <profileInstance Id="df9967bb-83cc-40be-88a7-f4d1a5ab2e31" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</activityRootModel>

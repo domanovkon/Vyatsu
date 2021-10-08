@@ -1,0 +1,5 @@
+INF_LOAD:Node=0 tags=8 templates=2 obj=2 
+INF_LOAD:Max: tags=16777215 templates=32767 obj=32767 
+INF_LOAD:Node type=90901000 
+INF_LOAD:Ïףכüע 
+INF_LOAD:Found CH=5 Resource=0 ExtResurce=2 

@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="0174ce0d-90df-43cf-aecd-9c9073b750fe" name="UMLComponentDiagram1" linkedPackageId="9e157ea4-b499-4201-996a-6437cbd3a31f" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="f9373804-261c-407d-8045-26b7b5cf5211">
+      <profileInstance Id="0757a984-3c76-432f-a939-7c562adcb860" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="f1fae457-32fc-4f2a-a93f-424e9a50ea72">
+      <profileInstance Id="6eafe174-34c6-45c6-bdb4-b9f847b575ca" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="27499d72-b2f8-4e3e-82cb-ff5529bd7f5a" name="Сервер" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5d8cedbf-b74f-4915-abd5-d5c6bb67d568" />
+        <suppliersInternal>
+          <dependency Id="787a9bb7-23c2-467d-a228-6e7a1484548a">
+            <componentMoniker Id="8c3eca4d-8187-4b47-b897-31bc9c02691b" LastKnownName="Сервер СУБД" />
+            <elementDefinition Id="42c38d7d-5886-4835-b87e-03dfa7415208" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <part Id="aea0a46d-84b1-4de1-9e6b-794fe8c85bc7" name="Организатор.cs" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="95c6cff3-bdd3-4f97-a5b4-981f34f9f51e" />
+            <type_NamedElement>
+              <componentMoniker Id="01461a7d-4df6-4fae-bb3e-0d047c40d278" LastKnownName="Component1" />
+            </type_NamedElement>
+          </part>
+          <part Id="511025e2-49bb-47f0-b6ad-0c94efa69b52" name="Спортсмен.cs" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="0233be03-6812-47a2-9a65-c12011090197" />
+            <type_NamedElement>
+              <componentMoniker Id="f7907aa5-6191-48da-bc3e-02d45d336352" LastKnownName="Component11" />
+            </type_NamedElement>
+          </part>
+          <part Id="5611f3b1-a3c1-4fae-883c-a11258838d66" name="Мероприятие.cs" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="bee1ca97-e82a-4d6b-bf77-5dd5f8879fcc" />
+            <type_NamedElement>
+              <componentMoniker Id="fcb6b877-3169-4d68-b44e-4383c9b1bea0" LastKnownName="Component111" />
+            </type_NamedElement>
+          </part>
+          <part Id="e76554a5-c955-4e5f-af50-2e61ca02d954" name="Вид спорта.cs" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="88354aa1-42bb-4345-8ab0-8ded041d890c" />
+            <type_NamedElement>
+              <componentMoniker Id="21998267-522b-4e50-80bc-8db1c62f5ca8" LastKnownName="Component112" />
+            </type_NamedElement>
+          </part>
+          <part Id="47cddfcc-bb2b-42de-a663-c3803cb0768e" name="Судейская бригада.cs" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="bf023b93-0a50-4070-a997-ed5fa10b6447" />
+            <type_NamedElement>
+              <componentMoniker Id="3c2877b1-3978-4085-84f1-c8f3bda1abf2" LastKnownName="Component113" />
+            </type_NamedElement>
+          </part>
+          <part Id="f074a406-642b-4d25-870e-d94b9e654ff4" name="БД.cs" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="ebb575af-f61f-4118-8e4a-391efdc78103" />
+            <type_NamedElement>
+              <componentMoniker Id="5c2c6986-0996-4793-9606-49123f35962d" LastKnownName="Component2" />
+            </type_NamedElement>
+          </part>
+          <part Id="fd36476c-7295-4760-b127-50ea6a6ed768" name="Призовой фонд.cs" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="9b7d8329-7f6a-4250-8437-95d57d91bb88" />
+            <type_NamedElement>
+              <componentMoniker Id="fec3af7d-3c61-49bc-8386-0a2be0405903" LastKnownName="Component21" />
+            </type_NamedElement>
+          </part>
+          <part Id="18d4397c-4c86-407c-8a02-8660c4e40a76" name="Список участников соревнования.cs" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="2a9e9ff9-6959-48d6-a44a-9b3b4df51f86" />
+            <type_NamedElement>
+              <componentMoniker Id="33f134e6-54b2-48ed-b872-29fa1462e0ba" LastKnownName="Component211" />
+            </type_NamedElement>
+          </part>
+          <part Id="a02093cf-ac45-46e3-a683-791e34602e46" name="Команда.cs" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="f1e8eb89-7470-4547-8c84-69c0b2fb1779" />
+            <type_NamedElement>
+              <componentMoniker Id="6cff4233-b91d-4752-beb2-c42b4585fb0e" LastKnownName="Component2111" />
+            </type_NamedElement>
+          </part>
+          <part Id="bc5cde7e-c40f-400e-bb6e-655ea642b0d1" name="Спонсор.cs" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="92df6899-5bf3-4e2c-9aae-c320c7d96c25" />
+            <type_NamedElement>
+              <componentMoniker Id="278d380c-cf66-4900-a676-490c18fb65f1" LastKnownName="Component21111" />
+            </type_NamedElement>
+          </part>
+          <part Id="8925e9ee-a650-4185-9c74-c318b593dde4" name="Спортивная площадка.cs" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="bf7eaf21-fab8-4ac0-b163-26babae3c70a" />
+            <type_NamedElement>
+              <componentMoniker Id="b8d929f0-89fb-41b9-88eb-babdd778b124" LastKnownName="Component22" />
+            </type_NamedElement>
+          </part>
+          <part Id="070a7f97-b9c2-4e62-aa3a-26d16c6d772a" name="ВзносСпорсора.cs" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="139b6fb4-3d52-4d24-a1b9-3898b370b343" />
+            <type_NamedElement>
+              <componentMoniker Id="88f96d4d-cbed-4c9b-91c7-ea21ad30e578" LastKnownName="Component3" />
+            </type_NamedElement>
+          </part>
+          <part Id="07eaede8-e675-4d93-9998-bf807d2b7554" name="Судья.cs" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="26a5cecd-f33d-46de-b6b4-51f51e90a216" />
+            <type_NamedElement>
+              <componentMoniker Id="1903682e-c7c8-48ca-9058-8b381fdc44bf" LastKnownName="Component4" />
+            </type_NamedElement>
+          </part>
+          <part Id="edcd35f6-2fdf-45da-8a19-cd27d4b79883" name="Расписание.cs" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="faaa5f56-ab1a-456b-bf6e-f52c976d4aa4" />
+            <type_NamedElement>
+              <componentMoniker Id="f6661a06-718d-4557-a484-f675c93cd3ab" LastKnownName="Component41" />
+            </type_NamedElement>
+          </part>
+          <part Id="505e99a4-eab4-4f8e-8553-27c2253b7308" name="Список категорий.cs" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="a54e7d55-771b-45c6-bacb-dfe1275b8968" />
+            <type_NamedElement>
+              <componentMoniker Id="11b7fae0-766e-4073-91a6-29107b965280" LastKnownName="Component411" />
+            </type_NamedElement>
+          </part>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="fb9507e7-99ad-4bf4-b060-bd113035c971" name="Клиент" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5e988dec-70a9-45fe-bed4-c4e82ecae0d5" />
+        <suppliersInternal>
+          <dependency Id="84f66a94-fea8-4a26-83d6-094b17632312">
+            <componentMoniker Id="27499d72-b2f8-4e3e-82cb-ff5529bd7f5a" LastKnownName="Сервер" />
+            <elementDefinition Id="98b4fd7c-4726-4aa6-849e-d49dc28214a8" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <part Id="b8d1d763-8b43-4de5-bbac-676756d3ed6a" name="App.exe" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="7402377d-8c27-45ba-9da7-0ff8da8e7b5f" />
+            <type_NamedElement>
+              <componentMoniker Id="ff013b9e-c646-44b6-8265-b71bfe1121af" LastKnownName="Component5" />
+            </type_NamedElement>
+          </part>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="8c3eca4d-8187-4b47-b897-31bc9c02691b" name="Сервер СУБД" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b16d2a0d-870f-4990-95b0-e565e2c336ea" />
+        <ownedAttributesInternal>
+          <part Id="fb87a2a8-9298-4adc-931d-48f2436916ab" name="Database.db" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
+            <elementDefinition Id="5a05a66f-e241-4a47-9b84-7bd112388729" />
+            <type_NamedElement>
+              <componentMoniker Id="f4ec810b-2bc9-4371-9289-e1922a516afb" LastKnownName="Component6" />
+            </type_NamedElement>
+          </part>
+        </ownedAttributesInternal>
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="01461a7d-4df6-4fae-bb3e-0d047c40d278" name="Component1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="31de8642-49a1-4be5-a2f7-8fa556c86b21" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="f7907aa5-6191-48da-bc3e-02d45d336352" name="Component11" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b7f03d52-068f-4ce8-bc58-a5c552380645" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="fcb6b877-3169-4d68-b44e-4383c9b1bea0" name="Component111" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8aeb50b1-9b1f-406d-bf54-02604e5a1976" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="21998267-522b-4e50-80bc-8db1c62f5ca8" name="Component112" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a5ad74b0-ac62-46f0-9550-ba8a4880371e" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="3c2877b1-3978-4085-84f1-c8f3bda1abf2" name="Component113" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="413a9997-8621-4594-8ff4-2b5830e6fce3" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="5c2c6986-0996-4793-9606-49123f35962d" name="Component2" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e4465c49-92ca-42dc-913e-7b35f2b26cc6" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="fec3af7d-3c61-49bc-8386-0a2be0405903" name="Component21" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="feef9b42-49b1-4f10-ac31-6e33cffb50b3" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="33f134e6-54b2-48ed-b872-29fa1462e0ba" name="Component211" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="84cefd74-4fb2-4a34-aa96-fc72b60063f8" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="6cff4233-b91d-4752-beb2-c42b4585fb0e" name="Component2111" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1ba739b4-3f94-4fb3-b0bd-feef759f163f" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="278d380c-cf66-4900-a676-490c18fb65f1" name="Component21111" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4c5eea45-5df1-4b0a-b719-4ef14d8a27db" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="b8d929f0-89fb-41b9-88eb-babdd778b124" name="Component22" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8b9a6dbb-9056-4071-8ebd-b92b6a8971db" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="88f96d4d-cbed-4c9b-91c7-ea21ad30e578" name="Component3" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="cc136910-0e17-4490-bba6-be8a1af5350c" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="1903682e-c7c8-48ca-9058-8b381fdc44bf" name="Component4" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="005b52c4-f7f2-4ef0-8e78-d79e09ee6d73" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="f6661a06-718d-4557-a484-f675c93cd3ab" name="Component41" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="1441570a-3139-4eda-84db-d20a1e80f035" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="11b7fae0-766e-4073-91a6-29107b965280" name="Component411" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="56cb733e-be94-457d-8fee-4a007e15292f" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="ff013b9e-c646-44b6-8265-b71bfe1121af" name="Component5" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="cf01bd46-ef7b-4f88-aa5a-fa43c36ccf37" />
+      </component>
+    </componentModelHasComponents>
+    <componentModelHasComponents>
+      <component Id="f4ec810b-2bc9-4371-9289-e1922a516afb" name="Component6" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="52bb1104-cc86-44bf-89bd-a4b70abeb1b0" />
+      </component>
+    </componentModelHasComponents>
+  </packagedElements>
+  <package Id="9e157ea4-b499-4201-996a-6437cbd3a31f" name="ModelingProject1">
+    <elementDefinition Id="18cff498-dd70-48ad-95cd-4313afe8e943" />
+  </package>
+</componentModel>

@@ -1,0 +1,33 @@
+(10:8:19) ERR_RTM:hasp driver login = 7
+(10:8:19) INF_LOAD:Starting... latex_domanov_0
+(10:8:19) INF_RTM:Detected RTM NT(5.1)
+(10:8:19) INF_RTM:Base TRACE MODE 6 Profiler T-Factory + ver. 6.10.2 ver. 6.10.1 
+(10:8:19) INF_LOAD:max channel = 65535
+(10:8:19) INF_LOAD:Load Channels 5(1 - 14) 
+(10:8:19) INF_LOAD:Templates=1 (math=0 sql=0 scr=1 doc=0 pnl=0) 
+(10:8:19) INF_LOAD:Objects = 0
+(10:8:19) INF_RTM:Timer=0.055s CalcLoop=550ms 
+(10:8:19) INF_LOAD:LoadTime=0.188s CalcPeriod=550ms 
+(10:8:19) INF_RTM:available(MB): pm=1847 vm=2047; free(MB): pm=1154 vm=1836 em=0 after load
+(10:8:19) INF_RTM:total use(MB): pm=693 vm=211 after load
+(10:8:19) INF_RTM:use(MB): pm=15(15) vm=43(43) pf=1 after load
+(10:8:19) INF_RTM:gh:6 uh:2 hh:60 after load
+(10:8:23) INF_IP:hostname is LAB236-06 
+(10:8:23) INF_IP:card0 addr=0.0.0.0 
+(10:8:23) INF_IP:card1 addr=10.202.0.70 
+(10:8:23) INF_IP:card2 addr=192.168.65.1 
+(10:8:23) INF_IP:card3 addr=192.168.137.1 
+(10:8:23) INF_IP:node_1 : 217,0,0,0 
+(10:8:26) INF_RTM:start time is 2.265 s 
+(10:8:26) INF_RTM:total use(MB): pm=750 vm=380 after start
+(10:8:26) INF_RTM:use(MB): pm=70(70) vm=63(63) pf=16542 after start
+(10:8:26) INF_RTM:gh:545 uh:227 hh:176 after start
+(10:8:26) INF_FLT:ModeSwitch at start e15=0000 e18=0000 e20=0000 
+(10:8:26) INF_RTM:mode=2(Work) e15=00 e18=00 e20=00 [src4] 
+(10:8:26) INF_GRAPH:scr:1:popup=0 scrref=0 trend=0,0 update=1 
+(10:8:32) INF_RTM:stoping... = 30
+(10:8:33) INF_RTM:main clc stop 
+(10:8:33) INF_RTM:mode=5(Stop) e15=00 e18=00 e20=00 [src0] 
+(10:8:34) INF_RTM:stop time is 1.25 s 
+(10:8:34) INF_RTM:number of calculation = 9
+(10:8:34) INF_RTM:END OF WORK 

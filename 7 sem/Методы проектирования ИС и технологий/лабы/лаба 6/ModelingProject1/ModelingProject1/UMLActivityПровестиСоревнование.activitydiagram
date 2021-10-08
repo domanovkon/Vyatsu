@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="e3b936aa-7356-4962-ac88-e24b40f6c64d" name="UMLActivityПровестиСоревнование" linkedPackageId="26e544f9-d29b-4424-8327-049ec2af1808" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="727e8288-4ca8-451b-a9be-5e380f04fa20">
+      <profileInstance Id="72d48e66-35cd-450f-9711-cfa0ffd4d475" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="f691fa66-c76f-4f0f-bab3-1dad99d5a7d8">
+      <profileInstance Id="b55f60da-5738-4baa-91e8-cb79a1799f1a" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="57fa041c-c2dc-4ea1-931f-27d17f559fe8" name="UMLActivityПровестиСоревнование" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="2188fd29-100d-496f-b373-a39b993612ce" />
+        <nodes>
+          <initialNode Id="6876c97c-e2bf-4726-863c-efae29a65db5" name="Initial111" isLeaf="false">
+            <elementDefinition Id="790de075-f2a0-4de9-ba98-e6cfcc83e03d" />
+            <flowNodeTargets>
+              <controlFlow Id="d2e22708-7359-46f1-9400-e3cdc2d6b000" isLeaf="false">
+                <opaqueActionMoniker Id="16ec722c-2a65-43eb-b6f2-5861f30efa0e" LastKnownName="Открыть вкладку соревнование" />
+                <elementDefinition Id="780b8e3a-9103-47fd-b9f7-e6fe63bd702a" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="16ec722c-2a65-43eb-b6f2-5861f30efa0e" name="Открыть вкладку соревнование" isLeaf="false">
+            <elementDefinition Id="ecdad10d-4aaa-4d52-8ab0-f5fd715b5d9d" />
+            <flowNodeTargets>
+              <controlFlow Id="a19ca382-a3f2-4870-a37c-e1f02a81e05e" isLeaf="false">
+                <opaqueActionMoniker Id="73536eaf-dfa3-436a-8ea3-5295e40126a9" LastKnownName="Загрузить итоги соревнования" />
+                <elementDefinition Id="3ff8f55d-43ba-49a5-9c5d-55b7a9cd8021" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="73536eaf-dfa3-436a-8ea3-5295e40126a9" name="Загрузить итоги соревнования" isLeaf="false">
+            <elementDefinition Id="b946960f-5e46-46d4-8132-e40ad302c213" />
+            <flowNodeTargets>
+              <controlFlow Id="e2975084-50cc-49ae-9945-3ef07cf57cfb" isLeaf="false">
+                <opaqueActionMoniker Id="f30071f6-63f3-4348-8d92-69a8f3eb4a67" LastKnownName="Распределить возагрждение в соответствии с призовыми местами" />
+                <elementDefinition Id="5eaa9179-6f7d-491c-8576-f6f601b3f820" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="f30071f6-63f3-4348-8d92-69a8f3eb4a67" name="Распределить возагрждение в соответствии с призовыми местами" isLeaf="false">
+            <elementDefinition Id="d54aa141-d33a-41a0-a6b7-3b1b198e8a71" />
+            <flowNodeTargets>
+              <controlFlow Id="2d39114c-fc77-4031-ab9d-1ddfcb7b5b9b" isLeaf="false">
+                <opaqueActionMoniker Id="66aaca58-1e7a-429c-ac97-c3208fb327d9" LastKnownName="Внести информацию о проведении соревнования в БД" />
+                <elementDefinition Id="7eac7a5c-48f3-4e4c-a1b4-e8faeb1adf0c" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="e2058055-5e50-4777-a3c6-dd201f1583a5" name="ActivityFinal11" isLeaf="false">
+            <elementDefinition Id="01a7d835-0b0f-4bb9-bd0c-ff58bc8dc7d8" />
+          </activityFinalNode>
+          <opaqueAction Id="66aaca58-1e7a-429c-ac97-c3208fb327d9" name="Внести информацию о проведении соревнования в БД" isLeaf="false">
+            <elementDefinition Id="fe497cdb-affa-425a-ad91-b4466a04b846" />
+            <flowNodeTargets>
+              <controlFlow Id="d2ade899-3853-4de2-b024-9b73b53ea2f5" isLeaf="false">
+                <activityFinalNodeMoniker Id="e2058055-5e50-4777-a3c6-dd201f1583a5" LastKnownName="ActivityFinal11" />
+                <elementDefinition Id="845ef487-7ce2-495c-90d9-6ca956dec576" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="26e544f9-d29b-4424-8327-049ec2af1808" name="ModelingProject1">
+    <elementDefinition Id="18cff498-dd70-48ad-95cd-4313afe8e943" />
+  </package>
+</activityRootModel>

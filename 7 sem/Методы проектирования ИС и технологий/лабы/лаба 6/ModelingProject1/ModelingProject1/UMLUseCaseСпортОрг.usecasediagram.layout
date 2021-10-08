@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 12.125, 8.5" name="UMLUseCaseСпортОрг">
+  <useCaseModelRootMoniker Id="ee0079e1-82c0-447f-9343-be1b1f28abe0" />
+  <nestedChildShapes>
+    <actorShape Id="03b51b44-734a-4b60-ada3-966e42053fd5" absoluteBounds="1.75, 3.125, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="535e53f3-da98-4f88-9d11-328500efc4d9" LastKnownName="Организатор" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseShape Id="f0013a8b-85d6-4e3d-bce1-52f8d3d313d1" absoluteBounds="4.5, 1.375, 1.125, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="3d46e311-a412-4c51-88c6-37e9a57ff6c4" LastKnownName="Составить список всех участников соревнования" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(2.25 : 3.24234693877551); (4.62238637649628 : 1.98352967777748)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="b5a80a37-78c6-41b9-b857-556684c8ffd1" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="03b51b44-734a-4b60-ada3-966e42053fd5" />
+        <useCaseShapeMoniker Id="f0013a8b-85d6-4e3d-bce1-52f8d3d313d1" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="39cb06dc-e09b-4f56-9099-b1eb0d2a5f02" absoluteBounds="4.625, 2.5, 1, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="0b11c251-f73a-46ac-8558-8fc81e83f1a0" LastKnownName="Выбрать вознаграждение" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(2.25 : 3.33); (4.64452919391838 : 2.89898474509469)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="0428d4c2-0536-48b5-8a4e-da11418a198d" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="03b51b44-734a-4b60-ada3-966e42053fd5" />
+        <useCaseShapeMoniker Id="39cb06dc-e09b-4f56-9099-b1eb0d2a5f02" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="39479c6b-b323-4edf-a74c-ddd2786ad9cb" absoluteBounds="4.5, 3.625, 1, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="df389549-508a-4985-8aea-d8ea2c77f592" LastKnownName="Составить расписание" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(2.25 : 3.421875); (4.52108685738942 : 3.84770378576052)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="9beea76a-15e5-4905-817e-c6b6e21ba4af" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="03b51b44-734a-4b60-ada3-966e42053fd5" />
+        <useCaseShapeMoniker Id="39479c6b-b323-4edf-a74c-ddd2786ad9cb" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="eeaadec7-5fcd-4ad8-ae26-d43160ef8b8b" absoluteBounds="4.5, 4.75, 1, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="efde0b30-768a-4b04-ad1b-bef1c37303a5" LastKnownName="Провести соревнование" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(2.25 : 3.515625); (4.62835292687642 : 4.85344852136798)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="9661fab3-92a3-41dc-be7d-04375f2c6314" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="03b51b44-734a-4b60-ada3-966e42053fd5" />
+        <useCaseShapeMoniker Id="eeaadec7-5fcd-4ad8-ae26-d43160ef8b8b" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="c34c10ff-b8e2-4dd7-85c4-fbb5834859cd" absoluteBounds="7, 1.375, 1, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="54c8a3c0-3ac7-4ec9-9e6d-0e6c89644159" LastKnownName="Оценить спонсоров" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <extendConnector edgePoints="[(7.10151511522742 : 1.87625599805017); (5.52348488477258 : 2.62374400194983)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black" useCaseStereotype="«расширить»">
+      <extendMoniker Id="d0dc1115-c775-4ab4-9bc2-620f81bba5fd" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="c34c10ff-b8e2-4dd7-85c4-fbb5834859cd" />
+        <useCaseShapeMoniker Id="39cb06dc-e09b-4f56-9099-b1eb0d2a5f02" />
+      </nodes>
+    </extendConnector>
+    <useCaseShape Id="085d5fa9-b448-4bb9-bcd5-c1b4819aeff0" absoluteBounds="7, 2.75, 1.25, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="2560e4e6-dd6d-4bf9-97a4-063c144f187e" LastKnownName="Сформировать вознаграждение" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(5.61529033784546 : 2.87378629223068); (7.013137237664 : 3.048517154708)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black" useCaseStereotype="«включить»">
+      <includeMoniker Id="3397e54c-052e-4a63-b4fc-4874b368aebd" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="39cb06dc-e09b-4f56-9099-b1eb0d2a5f02" />
+        <useCaseShapeMoniker Id="085d5fa9-b448-4bb9-bcd5-c1b4819aeff0" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="25c1bf6f-ffdd-4918-a479-75156afdee83" absoluteBounds="8.5, 3, 1.375, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="c69eb51b-34bc-4a73-8ca3-4781a10e79e6" LastKnownName="Выбрать судейскую бригаду" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(5.48883705253076 : 3.87183532130184); (8.51994506264898 : 3.46467155874864)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black" useCaseStereotype="«включить»">
+      <includeMoniker Id="f93b6988-ba51-4fc6-94d2-def00955df42" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="39479c6b-b323-4edf-a74c-ddd2786ad9cb" />
+        <useCaseShapeMoniker Id="25c1bf6f-ffdd-4918-a479-75156afdee83" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="94c37ec4-3095-485a-b0f1-a4a99646827a" absoluteBounds="9, 5.5, 1.375, 0.875" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="e34a20ee-aefd-4235-8a4a-1abea40e6d32" LastKnownName="Выбрать время проведения соревнования" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseShape Id="caff5118-bcb9-4219-90b8-be95ca59cc28" absoluteBounds="10, 1.875, 1.875, 1" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="9ff7b3c7-c5ce-4596-a40c-319cfa88bb35" LastKnownName="Распределить вознаграждение в соответствии с призовыми местами" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(8.20975107434421 : 2.99260353033716); (10.0745433016349 : 2.57038642227134)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black" useCaseStereotype="«включить»">
+      <includeMoniker Id="e2ea8444-a541-489d-8e12-42d233f86d44" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="085d5fa9-b448-4bb9-bcd5-c1b4819aeff0" />
+        <useCaseShapeMoniker Id="caff5118-bcb9-4219-90b8-be95ca59cc28" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="c3669e15-fe02-4915-a9a6-fdbd48ab5b41" absoluteBounds="6, 5.625, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="ce3aaedc-aa0b-4850-bd83-200913bef094" LastKnownName="Загрузить итоги состязаний" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(5.35355339059327 : 5.2834708691208); (6.11588936020131 : 5.75993085012582)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black" useCaseStereotype="«включить»">
+      <includeMoniker Id="5ad62129-bbc8-4ac8-8fde-aef626d2318e" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="eeaadec7-5fcd-4ad8-ae26-d43160ef8b8b" />
+        <useCaseShapeMoniker Id="c3669e15-fe02-4915-a9a6-fdbd48ab5b41" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="78bfa940-0127-42e7-8e38-b10a0f2acb0b" absoluteBounds="4.5, 6.75, 1, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="71c6f44f-131c-48ea-ac5e-b52d910e1f00" LastKnownName="Распределить призовые" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(5 : 5.375); (5 : 6.75)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black" useCaseStereotype="«включить»">
+      <includeMoniker Id="9b89bfc4-1406-4812-80d4-bd2b60dac1ad" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="eeaadec7-5fcd-4ad8-ae26-d43160ef8b8b" />
+        <useCaseShapeMoniker Id="78bfa940-0127-42e7-8e38-b10a0f2acb0b" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="3bc2c91e-a3e9-4d2c-8b82-d6f49c179c80" absoluteBounds="10.375, 4.5, 1, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="a8e069fd-0012-4236-8eeb-f03f056c97ac" LastKnownName="Проверка конфликтов" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(10.0708495219275 : 5.57432676870023); (10.5996596566174 : 5.07334874636249)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black" useCaseStereotype="«включить»">
+      <includeMoniker Id="49aef60d-aba7-4786-a22c-aff9090b52f7" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="94c37ec4-3095-485a-b0f1-a4a99646827a" />
+        <useCaseShapeMoniker Id="3bc2c91e-a3e9-4d2c-8b82-d6f49c179c80" />
+      </nodes>
+    </includeConnector>
+    <includeConnector edgePoints="[(9.5582292850838 : 3.69080642803435); (10.5792231934725 : 4.56054197962475)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black" useCaseStereotype="«включить»">
+      <includeMoniker Id="46afa658-7c95-4be5-8330-cd793d660208" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="25c1bf6f-ffdd-4918-a479-75156afdee83" />
+        <useCaseShapeMoniker Id="3bc2c91e-a3e9-4d2c-8b82-d6f49c179c80" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="998e9280-2881-4616-a016-f4912d2dda5e" absoluteBounds="1.875, 0.875, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="c13812c9-8fdf-45e2-859e-e557a39df6d7" LastKnownName="Зарегистрировать спортсмена" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(4.52070208050002 : 1.64920038706977); (2.86029173370124 : 1.34028683417697)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black" useCaseStereotype="«включить»">
+      <includeMoniker Id="cbc14dc2-4a9b-400b-bb14-bc81ccd851a6" />
+      <relativeChildShapes />
+      <moveableDecoratorHostShapes>
+        <moveableDecoratorHostShape manuallyPlaced="true" absoluteBounds="3.1207353816818362, 1.4447002150603847, 0.5804969071006294, 0.14800345897674561" shapeFieldName="NameDecorator" />
+      </moveableDecoratorHostShapes>
+      <nodes>
+        <useCaseShapeMoniker Id="f0013a8b-85d6-4e3d-bce1-52f8d3d313d1" />
+        <useCaseShapeMoniker Id="998e9280-2881-4616-a016-f4912d2dda5e" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="d155383b-e708-4fa5-86fd-454f914d1baf" absoluteBounds="7, 4.625, 1.375, 0.875" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="a8338296-dcd9-43aa-8bcc-9c7b689f2902" LastKnownName="Выбрать спортивную площадку" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(5.41542965872342 : 4.11140078737259); (7.1131276998296 : 4.8220650836496)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black" useCaseStereotype="«включить»">
+      <includeMoniker Id="5d33ba69-73d9-407b-b8e1-603d578c714c" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="39479c6b-b323-4edf-a74c-ddd2786ad9cb" />
+        <useCaseShapeMoniker Id="d155383b-e708-4fa5-86fd-454f914d1baf" />
+      </nodes>
+    </includeConnector>
+    <includeConnector edgePoints="[(8.25402882288707 : 5.31035636001309); (9.12097117711293 : 5.68964363998691)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black" useCaseStereotype="«включить»">
+      <includeMoniker Id="140bbce5-30d2-48c9-b0f8-1e0a3a27db31" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="d155383b-e708-4fa5-86fd-454f914d1baf" />
+        <useCaseShapeMoniker Id="94c37ec4-3095-485a-b0f1-a4a99646827a" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="ad8910f6-e17f-4d5e-bef9-ed312bc0a7b9" absoluteBounds="8.5, 3.875, 1.375, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="ce20d229-c887-4ddd-87d2-3776f6874df1" LastKnownName="Выбрать спортсменов" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(5.49647339658471 : 3.97455025347647); (8.50634556995669 : 4.19916757984751)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black" useCaseStereotype="«включить»">
+      <includeMoniker Id="035e8825-5a4f-49c5-8e13-0ea8833529e3" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="39479c6b-b323-4edf-a74c-ddd2786ad9cb" />
+        <useCaseShapeMoniker Id="ad8910f6-e17f-4d5e-bef9-ed312bc0a7b9" />
+      </nodes>
+    </includeConnector>
+    <includeConnector edgePoints="[(9.77413126063572 : 4.44554375354524); (10.4338235294118 : 4.66544117647059)]" fixedFrom="NotFixed" fixedTo="NotFixed" customColor="Black" useCaseStereotype="«включить»">
+      <includeMoniker Id="9d564b2e-4046-4d29-87a6-aa914dd35f10" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="ad8910f6-e17f-4d5e-bef9-ed312bc0a7b9" />
+        <useCaseShapeMoniker Id="3bc2c91e-a3e9-4d2c-8b82-d6f49c179c80" />
+      </nodes>
+    </includeConnector>
+  </nestedChildShapes>
+</useCaseDiagram>

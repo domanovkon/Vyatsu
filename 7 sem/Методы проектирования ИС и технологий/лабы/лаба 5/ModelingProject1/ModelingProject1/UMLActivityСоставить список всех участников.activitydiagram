@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="6322db3c-d3eb-45a9-8bb3-bad511d871d4" name="UMLActivityСоставить список всех участников" linkedPackageId="a4c0566a-63ac-4453-81fc-28a0ba656a37" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="6b39ca28-88f8-4eac-af21-8f42ee57a810">
+      <profileInstance Id="902b150b-0ff9-4895-9acd-b08224645edf" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="24822cdf-b7ea-41b9-b60e-dd78fb0f77c0">
+      <profileInstance Id="f271174e-3860-4aad-8f5a-3e3900faabc2" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="fa9d3336-b9e8-4b4d-974c-91aa4f3bfee4" name="UMLActivityСоставить список всех участников" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="a1a52a37-1ca1-4b2d-b59f-c486d0669e63" />
+        <nodes>
+          <initialNode Id="9b1f333a-652b-4e04-b5f9-6b7d170291e6" name="Initial1" isLeaf="false">
+            <elementDefinition Id="1a0b788d-4611-48e9-b8e6-fca01cf2e2f8" />
+            <flowNodeTargets>
+              <controlFlow Id="5e2ac343-5aa9-4ce2-8d90-d9ad4a93c67b" isLeaf="false">
+                <opaqueActionMoniker Id="7d037d62-66a5-4755-8891-9a448c4fa48e" LastKnownName="Открыть список всех участников соревнования" />
+                <elementDefinition Id="d6643c19-9dfa-4202-ac0f-cd9e9e027f67" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="ff388126-ebc7-4e1a-bc2d-0874a5cbd752" name="Зарегистрировать&#xD;&#xA;спортсмена" isLeaf="false">
+            <elementDefinition Id="7837e4d8-1d03-44a2-9d45-d63955207d9a" />
+            <flowNodeTargets>
+              <controlFlow Id="3a176b25-7007-4325-9601-fcd92dfa2e15" isLeaf="false">
+                <opaqueActionMoniker Id="a2caa364-1f46-4322-aa1f-dd3d308038cd" LastKnownName="Внести данные о спортсмене в БД" />
+                <elementDefinition Id="b01b3798-78ad-4921-b554-7ac114a5f2cf" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <activityFinalNode Id="b508d3c6-b0eb-44e5-9720-fb8a5167ac5d" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="678e7197-6324-4847-af2c-200f54a12cbf" />
+          </activityFinalNode>
+          <opaqueAction Id="a2caa364-1f46-4322-aa1f-dd3d308038cd" name="Внести данные о спортсмене в БД" isLeaf="false">
+            <elementDefinition Id="85dea56b-03f9-4889-9dc4-54986cf11bb1" />
+            <flowNodeTargets>
+              <controlFlow Id="45a9bc7c-d887-41e7-89cd-8a4bfbb414e0" isLeaf="false">
+                <activityFinalNodeMoniker Id="b508d3c6-b0eb-44e5-9720-fb8a5167ac5d" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="dc436be2-aae8-48cb-83a7-eed3dc07c6c4" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="7d037d62-66a5-4755-8891-9a448c4fa48e" name="Открыть список всех участников соревнования" isLeaf="false">
+            <elementDefinition Id="ae6dbc20-1753-4289-af4a-0cde53df43f8" />
+            <flowNodeTargets>
+              <controlFlow Id="7a3efa46-07f4-486d-aa09-f1f76d7dd3ee" isLeaf="false">
+                <opaqueActionMoniker Id="ff388126-ebc7-4e1a-bc2d-0874a5cbd752" LastKnownName="Зарегистрировать&#xD;&#xA;спортсмена" />
+                <elementDefinition Id="5f867968-9be3-4b78-bb12-dd22ce164e49" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="a4c0566a-63ac-4453-81fc-28a0ba656a37" name="ModelingProject1">
+    <elementDefinition Id="18cff498-dd70-48ad-95cd-4313afe8e943" />
+  </package>
+</activityRootModel>

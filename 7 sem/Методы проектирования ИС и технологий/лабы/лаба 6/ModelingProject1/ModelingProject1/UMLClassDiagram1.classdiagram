@@ -1,0 +1,822 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" dslVersion="1.0.0.0" Id="93db96cf-c303-4da5-9d3d-c86378a4c161" name="UMLClassDiagram1" linkedPackageId="5416cfad-c102-456a-bb30-f1207999af8f" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="c20357ae-2506-46d5-a6ff-f30f9493f714">
+      <profileInstance Id="6eb89aa3-f0b8-4c69-b9f8-cca07926b441" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="757836d9-b262-4a5b-8f30-b87981c18a2b">
+      <profileInstance Id="20e04898-e739-4a71-adb1-624af2b83a89" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2b0763d9-d282-4d56-a9db-30bb888d271e" name="Организатор" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4eda7c11-5065-4595-9c1a-73d845a4967c" />
+        <ownedAttributesInternal>
+          <property Id="00df7415-934b-4f95-a63d-23a9be04dbec" name="фамилия string" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="138ba397-9696-4c06-8ab0-6c2ae20bd5aa" />
+          </property>
+          <property Id="1229d4d2-b3ca-4754-adbe-8065fed7ce21" name="логин string" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5ce70101-5771-4d34-88f1-f46659b353df" />
+          </property>
+          <property Id="a5206a31-019b-4b4f-acc2-ece7d5db91e0" name="пароль string" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b4520a17-d2de-460c-a755-2228506cc5a9" />
+          </property>
+          <property Id="08aa7405-afeb-4bf1-909d-e53b686b383b" name="имя string" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c302aacd-e351-4f0b-baae-9b7638626af7" />
+          </property>
+          <property Id="70385147-feb6-4253-8e92-25346fa75001" name="отчество string" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="26cda9e4-faf2-430f-9139-c8d7ebb982f9" />
+          </property>
+          <property Id="c54ad778-a116-464c-a2bf-c6df27ac6f1f" name="id int" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5f15c1bd-4d51-473a-bf67-2540c3fa297d" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="f1fc6737-2e7c-409c-9f8e-74243aee3a68" name="создатьНовогоСпортсмена" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="299895c2-60aa-4deb-943e-0062ee0920c6" />
+          </operation>
+          <operation Id="9cbc0c5d-85ee-43d5-a207-d26114e49350" name="выбратьВознаграждение" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="426ab16c-4911-4a52-9093-7ba9829557e4" />
+          </operation>
+          <operation Id="4e4d970b-d41e-4271-84af-a6c6da789aad" name="составитьРасписание" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a82dc9ea-ca8e-4870-b5ef-5c3c14192109" />
+          </operation>
+          <operation Id="4e4fd686-5562-4774-9f96-269a985d5fc4" name="провестиСоревнование" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bd3d9885-1d8f-492f-89a8-f1df0b58e9df" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="60fc6ea0-f0d7-47ef-b067-79cd9856ea4a" name="итоги" direction="In" isUnique="false">
+                  <elementDefinition Id="db1948d0-0c58-4227-ac3c-9a1a09ba3329" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="8b6530b7-83be-438a-a3e5-70553efa4a8f" name="Мероприятие" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9a1ceb02-20ea-40dc-8b02-b362b4f3f790" />
+        <ownedAttributesInternal>
+          <property Id="272f3db0-5131-40a8-a01f-8c7d9e879a24" name="название string" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f5aa73f8-aeca-46dc-9851-04a8ba7c41a0" />
+          </property>
+          <property Id="99443ef3-3e7d-4109-aeaf-c6262e8623f4" name="спорт id smallint" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="cc3b9580-94e6-4f4b-b282-ef62f788ac7d" />
+          </property>
+          <property Id="59c337bc-50cb-4f81-8f0d-fe52bc9b8fa5" name="взнос double" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6cff53c5-b9ba-4b62-91e7-5d5b5aa18cda" />
+          </property>
+          <property Id="540dd8ee-0b33-4fa3-8b9b-6ebcf0b4735c" name="результат string" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7ed10b2a-fb21-4981-ae4a-b9153f3aaae8" />
+          </property>
+          <property Id="a5bd4372-4bdd-4da5-81c4-22fdddebcb01" name="id int" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6445b6f1-d899-4e54-aab9-a58a39f4e0e5" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="ea5fe555-7f78-4be2-870d-8a82a06ede6f" name="открытьСписокМероприятий" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="fc0d58a8-7d79-4793-b810-496171e88fb5" />
+          </operation>
+          <operation Id="1cd7721e-9526-4d3e-83ff-bfc8167968be" name="добавитьСпонсораНаМероприятие" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ee57b8fe-a1b8-4587-b52f-671f925b0328" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3895b5e3-5083-4513-b99c-2076a6f82dcc" name="спонсор" direction="In" isUnique="false">
+                  <elementDefinition Id="95599a20-e924-462e-95d2-6b5fd9a1965b" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="07860a5f-3fd5-4079-a4bf-d6e613988521" name="мероприятие" direction="In" isUnique="false">
+                  <elementDefinition Id="57fb04ce-69ac-4a6e-b238-d2bba1bc3ad1" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="c40235fc-1d91-4460-a8ff-8af49c5209e7" name="ввестиСуммуВознаграждения" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c7e50645-5c8d-4ffb-b949-706734d876fc" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="a5d32558-b690-4606-b51f-6c1b3bc35ef8" name="общая сумма вознаграждения" direction="In" isUnique="false">
+                  <elementDefinition Id="c6207c18-d71d-4872-a01b-9fb2584ff30b" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="0801af75-9eff-45b4-af65-3c92943aed47" name="сумма для 1-го" direction="In" isUnique="false">
+                  <elementDefinition Id="3d6cb549-fd07-4e70-80e0-f85ecc9f8496" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="6322b547-f6d6-4b15-af74-629546e14bb3" name="2-го" direction="In" isUnique="false">
+                  <elementDefinition Id="4617800c-9049-4de3-b17f-70c34977f8a4" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="7ece8037-12f3-4549-bf65-4e4a61f4438d" name="3-го места" direction="In" isUnique="false">
+                  <elementDefinition Id="4cf55741-a862-4af9-a101-92f624a75507" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="77cbc90a-aa93-4fc3-a3ec-ad4a720799b8" name="мероприятие" direction="In" isUnique="false">
+                  <elementDefinition Id="1bdf04e8-48bc-4820-897c-7c494e406670" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="82f9a524-800e-4998-8670-68c7da05dbec" name="загрузитьИтоги" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="0d9ed169-ac2f-4c84-be0d-31426c31e343" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ac3646f8-3ad0-4c07-b54b-2d53e84adcf3" name="мероприятие" direction="In" isUnique="false">
+                  <elementDefinition Id="2e8c07ea-0e1a-4754-9d55-5dbfdaa85912" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="12496cad-6358-4750-92b3-81d052e087d6" name="итоги" direction="In" isUnique="false">
+                  <elementDefinition Id="1e186693-c685-47b0-b4fa-961cea15ecc1" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="8cda4ae7-428d-4511-9365-277d377cc50d" name="распределитьНаграды" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="08d44a36-e0ed-414b-b870-c6474e9fce5c" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3a2e7ce7-5067-42d8-81bc-d7305f19fb64" name="мероприятие" direction="In" isUnique="false">
+                  <elementDefinition Id="f62e4bc3-ab7e-4bf1-8651-c72331109ccd" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d69b2488-938b-4b9e-b44a-ef3789fc110d" name="Спортсмен" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2ad17d80-a83b-45df-aace-8ada8265cc8a" />
+        <suppliersInternal>
+          <dependency Id="c837898d-0ba0-4dbf-bc09-2e0aae0630b0">
+            <classMoniker Id="8b6530b7-83be-438a-a3e5-70553efa4a8f" LastKnownName="Мероприятие" />
+            <elementDefinition Id="3b848b07-4ee7-4524-bc58-757f8e0e58f5" />
+          </dependency>
+        </suppliersInternal>
+        <targetEnds>
+          <association Id="6277799e-b1e5-4837-aeb4-88ab6cc708e5" isDerived="false" sourceEndRoleName="Спортсмен" targetEndRoleName="Список участников соревнования" isLeaf="false" isAbstract="false">
+            <classMoniker Id="ec511ad5-0dae-4f9f-8f57-c3dcd94295a1" LastKnownName="Список участников соревнования" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="48099d55-2629-4331-8c4e-6346d6f356ca" name="Спортсмен" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e1e13f78-bfd5-4b5e-9a94-a0579fe95248" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="de985da1-bb97-4cbc-a199-bd25e8d1900f" name="Список участников соревнования" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2571b1ac-4db6-4d48-9ac4-2f76a9ba42ff" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="98a1ee7b-1258-4723-8ab3-c6986e868412" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="d6aa7764-7289-478d-9021-ef4884e88905" name="фамилия string" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="77d2f5a7-0acd-44db-9c20-e790214024f0" />
+          </property>
+          <property Id="c3415bc4-fc91-4eb5-97d5-bab69060762e" name="имя string" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ff4cf089-670b-499c-bf7a-410cb8dd538b" />
+          </property>
+          <property Id="49173180-7e34-44ea-9026-c50af498d422" name="отчество string" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b51197ba-b4b4-4e32-84a5-a602940b1eb1" />
+          </property>
+          <property Id="8e743500-43f0-4a85-bb6e-e1a2a5f49874" name="id int" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="dce038b3-e2c6-4722-9c13-7b3831fdc74e" />
+          </property>
+          <property Id="e545d5e7-af72-4184-9d48-78f794f79e49" name="вес smallint" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4537b9cb-0208-46f7-88b9-969f57424c36" />
+          </property>
+          <property Id="75ba4b15-42bd-4116-8b73-b6fcc5d2a1a4" name="рост smallint" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="06ae780b-6b8a-4b10-b545-d0bd0c425cca" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="ce2924f4-cdb9-49b2-8c88-5678c0fe6482" name="получитьСписокСпортсменов" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7e55945a-a7c2-4e16-b655-0890e7155975" />
+          </operation>
+          <operation Id="dc18076b-0aa0-4f3c-a569-b64ef941b07e" name="зарегистрироватьСпортсмена" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="9f7f6335-d8b9-4d24-91da-2de67ebedbcb" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2f1b5457-3883-4abc-bfc9-6aebf449c547" name="информация о спортсмене" direction="In" isUnique="false">
+                  <elementDefinition Id="f9ff27ba-b129-4f17-913e-973794e9a2ad" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="659258ed-1a70-46bc-8027-14052dd51b8d" name="открытьСписокВсехСпортсменов" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a63694c6-e50f-4c32-bdc4-c734ddf878f8" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="108570bf-eac6-4add-8ecc-bf500652be8d" name="мероприятие" direction="In" isUnique="false">
+                  <elementDefinition Id="59355a96-d9a8-4a12-a0a7-17881f11230c" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="699a80e6-1891-4de3-b6c4-d3233ce00592" name="БД" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d90f42db-321c-4ae9-b55b-37dfd48caaeb" />
+        <suppliersInternal>
+          <dependency Id="9d713298-987d-44a7-af0e-433f4382773c">
+            <classMoniker Id="8b6530b7-83be-438a-a3e5-70553efa4a8f" LastKnownName="Мероприятие" />
+            <elementDefinition Id="c880c5a7-5497-46f0-970f-e6a9d19ea04c" />
+          </dependency>
+          <dependency Id="fa1dcae8-1aa6-487f-b191-e257fd9985b7">
+            <classMoniker Id="66032504-391c-4557-9cf3-2f2b6a0f3444" LastKnownName="Расписание" />
+            <elementDefinition Id="88518529-d7af-4d82-98a4-f634a3cc5e34" />
+          </dependency>
+          <dependency Id="7f2c6b8c-d44d-46d9-b5aa-900716be9e5f">
+            <classMoniker Id="729a0b01-ba3e-4ed1-a613-88d7dd4b9929" LastKnownName="Спортивная площадка" />
+            <elementDefinition Id="c79b2904-5e0c-4336-ab4c-33fbb07932b7" />
+          </dependency>
+          <dependency Id="d9f9f246-8e6e-4e46-84d2-0c71d790df19">
+            <classMoniker Id="a0543f28-1e81-4795-b8b9-b5b1086726ac" LastKnownName="Спонсор" />
+            <elementDefinition Id="b50dbf38-32ce-41cb-b729-a46fb2be1733" />
+          </dependency>
+          <dependency Id="60d12755-745d-4a8d-83b7-8218402b9111">
+            <classMoniker Id="d69b2488-938b-4b9e-b44a-ef3789fc110d" LastKnownName="Спортсмен" />
+            <elementDefinition Id="a02192d3-f3c1-424e-94ae-0656cf1d219f" />
+          </dependency>
+          <dependency Id="d5a60e4e-5413-4275-80e2-014bddbae0be">
+            <classMoniker Id="537cfa69-9068-4f21-85ae-305c5b10d949" LastKnownName="Судейская бригада" />
+            <elementDefinition Id="64b1b93f-71f0-4365-8abd-e89709ee1c78" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="18d0f6de-bd1b-4e29-a7bc-f0c4f8a31bcf" name="строка подключения" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ac37df9b-66c6-4fe7-9938-e3b90df92923" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="877488e1-0a86-4e5c-8f67-5ad178775e97" name="выбратьСписокСпортсменов" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="6a1ed4b2-f066-4323-803f-a5d870ae44b3" />
+          </operation>
+          <operation Id="fde2a012-509f-4d89-9511-650384676ca6" name="добавитьСпортсменаВБД" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c92d7e2f-6905-45d5-a76e-4c25065652d2" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="2cec7b38-6518-4e73-8d10-4628a2e6df42" name="спортсмен" direction="In" isUnique="false">
+                  <elementDefinition Id="7fe35eab-91e8-44a1-b2dd-5871af4d7d1c" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="930d3115-e20f-4ea2-a91e-df33ffe87427" name="выбратьСписокМероприятий" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="cfee3357-cdcb-436e-9b61-2fcc5a477d8a" />
+          </operation>
+          <operation Id="d39f606c-4c56-4856-99b5-c04ce080b08a" name="выбратьРасписание" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="9b53f396-effd-4774-bc46-d58d04c803b6" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="7b41d3b1-2d28-41c2-bc0e-efadd76dfc7d" name="мероприятие" direction="In" isUnique="false">
+                  <elementDefinition Id="98fa2215-c5cd-47c0-ae0b-70d88c73dd7e" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="c12e8ffe-ff0b-416a-ae50-8e690fc70d67" name="выбратьСписокВсехДоступныхСудейскихБригад" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="202ad62c-77da-4fc4-8cec-e43124af94ee" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="87f49e33-4658-4f01-bfc9-31f6206d0eb9" name="расписание" direction="In" isUnique="false">
+                  <elementDefinition Id="bbdd0dbb-8fcf-4c1f-b7f7-8d05e0fda8b0" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="dddec36d-a7ae-4cdc-ab9e-fa70d8f065ed" name="добавитьСудейскуюБригаду" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c89a9855-4e63-47d4-b3f8-ce0faeb710ec" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="fd66b675-a637-4b62-84bc-7a267df18271" name="судейсйская бригада" direction="In" isUnique="false">
+                  <elementDefinition Id="b43c4814-f2f2-424a-b6ab-ca2a464b5519" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="534cac07-0d7b-4f41-ab8a-0defa928e801" name="расписание" direction="In" isUnique="false">
+                  <elementDefinition Id="f816e422-3ccd-4495-8ab1-c9c21e3479e8" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="2a2d1326-cf77-419c-a835-0cc39d6da070" name="выбратьСписокВсехСпортсменов" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="fd9f301c-6e2f-4365-af82-4a4ccdfb8ea6" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="90c8019d-ff7b-45d8-9a56-99254a187eb0" name="мероприятие" direction="In" isUnique="false">
+                  <elementDefinition Id="98ccc8b4-cd61-4dd5-9616-b37f8e9efa8f" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="d31562b9-7e83-4eb1-bb27-e53783e79516" name="добавитьСпортсменов" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="85ad9d80-cde8-42d5-b7e9-9ef9f7a3931d" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="57bee475-1ffc-4f16-a8b9-9df5f54a23b5" name="список спортсменов" direction="In" isUnique="false">
+                  <elementDefinition Id="71e919c0-b877-4b41-b831-2c83cd6e37fc" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="d82822d7-7719-4130-9beb-0bf763a9a416" name="расписание" direction="In" isUnique="false">
+                  <elementDefinition Id="526cf205-95c0-41b9-a0f0-240598970505" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="907a4957-efae-4868-af3d-aeef148e56c6" name="выбратьСписокСвободныхСпортивныхПлощадок" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d7d510ff-7638-4840-adf2-9d8b1ece9754" />
+          </operation>
+          <operation Id="362176ee-8a66-47f3-891f-009978dee8fb" name="добавитьПлощадку" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5c581540-4a2f-4628-89e7-f2c22e3059e9" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="50a404b3-8e76-4d27-82b6-a28e631ae748" name="площадка" direction="In" isUnique="false">
+                  <elementDefinition Id="40f0a1d7-172c-49f7-8a01-a40ab0ab9ae3" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="5e250056-7df5-47a6-b466-42c08cd06df5" name="расписание" direction="In" isUnique="false">
+                  <elementDefinition Id="61e3ac77-7169-4ea1-9a2b-f95440511377" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="cb3bf14a-a472-4b9f-98dd-e823fcc24e35" name="изменитьМероприятие" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5459d871-0491-4210-9504-b593c353851a" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="558389d8-2fa1-4401-893c-b713fabad23a" name="мероприятие" direction="In" isUnique="false">
+                  <elementDefinition Id="284c1b5b-5e41-45b9-a307-a23c7a0d531b" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="9e825106-7813-4a33-a02f-94decc3e1924" name="выбратьСписокСпонсоров" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="70f46814-8faa-467f-81a0-e99abaac688a" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c170f96b-5649-4e16-a35f-ff7338e78113" name="мероприятие" direction="In" isUnique="false">
+                  <elementDefinition Id="cc4ca180-b879-44b9-b49c-b9cfcf3974d1" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="cd233606-bbcc-43db-b1da-b7e5c4ddd1b6" name="добавитьСпонсораНаМероприятие" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d8f271ee-72e9-46d8-acc5-7562af3566f3" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="6f4e834b-b187-4c3c-91c3-87271566241b" name="спонсор" direction="In" isUnique="false">
+                  <elementDefinition Id="fe2095c0-c587-49db-891d-a25b7000de7e" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="de415602-c11f-4d5d-b6d8-b3328691b666" name="мероприятие" direction="In" isUnique="false">
+                  <elementDefinition Id="825b017f-2e22-4de8-8491-7fd7a4daddbe" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="dd255476-52e5-4351-9e25-12c9b83c54b3" name="обновитьИнформациюВБД" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5261ac30-d90b-47e2-a711-874a477a557d" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="74a32d5f-9c81-4be6-a4cf-545983e85a10" name="мероприятие" direction="In" isUnique="false">
+                  <elementDefinition Id="ecd100a2-4ebf-4903-9f76-fcdd4c57d1ba" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="66032504-391c-4557-9cf3-2f2b6a0f3444" name="Расписание" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5d8c566a-f14c-4bce-a491-69b439453dbb" />
+        <suppliersInternal>
+          <dependency Id="501a9473-713a-465a-898a-a7c752ccd7c7">
+            <classMoniker Id="8b6530b7-83be-438a-a3e5-70553efa4a8f" LastKnownName="Мероприятие" />
+            <elementDefinition Id="36814cec-a8c6-41f4-bf4f-148a2dc8b597" />
+          </dependency>
+          <dependency Id="5acd4f85-b7df-4ed4-b2a3-2e0510a3e9e4">
+            <classMoniker Id="537cfa69-9068-4f21-85ae-305c5b10d949" LastKnownName="Судейская бригада" />
+            <elementDefinition Id="1b1b14f5-26e3-47eb-b2d7-eb0a116a100e" />
+          </dependency>
+          <dependency Id="5e14355b-41c9-4b66-86c0-b98429d3a299">
+            <classMoniker Id="729a0b01-ba3e-4ed1-a613-88d7dd4b9929" LastKnownName="Спортивная площадка" />
+            <elementDefinition Id="eace9e21-5399-4727-9c9b-3d969fc0a522" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="016b09ee-e6e5-4b6f-ba40-ef9440b92d09" name="id int" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5d57889e-3754-449d-8be2-fd93c95a2235" />
+          </property>
+          <property Id="ca1c5888-8973-4b93-ba3d-69bf00623e03" name="id спортивной площадки int" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7f334706-2932-4edb-959a-ffef3cef9017" />
+          </property>
+          <property Id="6ae5be91-edfe-409d-ab37-060b3c992def" name="дата и время начала соревнования datetime" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="46e863d3-ff28-4f09-a84b-56d1a2930782" />
+          </property>
+          <property Id="71ff035f-8e57-4646-a71a-cf437952aa2b" name="дата и время окончания соревнования datetime" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="256a32a6-45ad-41b7-9886-fa9cb78bfe37" />
+          </property>
+          <property Id="fe946048-5d6c-4aa6-8ded-99673fb568eb" name="id мероприятия int" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="74630ce9-25cd-4736-a269-be0f1bde652b" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="5f25fda9-50d5-488a-931a-8876410ac662" name="получитьРасписание" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="42d1c36d-75ec-4758-ba2f-6817aa2a1607" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="25ee55bf-7c55-4d47-acc6-8af6a8fcbb7b" name="мероприятие" direction="In" isUnique="false">
+                  <elementDefinition Id="8bbd4661-8816-4ccf-8e78-4db6ea09b48f" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="2aed79f0-4c0c-42bf-b44b-96fb4b677e96" name="выбратьСудейскуюБригаду" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="4260367b-3916-421c-b5ce-d949d51068e9" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1182912b-f311-4c20-8d88-81188cb487a4" name="судейсйская бригада" direction="In" isUnique="false">
+                  <elementDefinition Id="35c4a949-640f-493a-80ec-209412101218" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="90ccca4d-c666-4a54-a4ce-6dfa30b15945" name="расписание" direction="In" isUnique="false">
+                  <elementDefinition Id="4c0c98ae-78d5-4da3-af14-4cb94f17a6e3" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="d26de20d-55c6-4b84-81b0-44ea6e4e897f" name="выбратьСпортсменов" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="cdd8c2f7-42f7-404d-bce5-49f6cc8aa849" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="be2110f9-6b92-45c3-bd4c-c336cbee7457" name="список спортсменов" direction="In" isUnique="false">
+                  <elementDefinition Id="d33c9b32-5a84-478c-aff6-56e6369a00ba" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e30fde3e-c0a4-49a4-9975-bb9f12d49edc" name="расписание" direction="In" isUnique="false">
+                  <elementDefinition Id="0cec9ec8-0207-4814-8103-60dcaabc8b5c" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="9a9bf887-d01e-437b-b728-accd526e8caa" name="выбратьПлощадку" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a6423383-0df1-4c5b-b32e-984ca6bee4bb" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e9f436b7-6537-46fc-b943-465d3d6abfe2" name="площадка" direction="In" isUnique="false">
+                  <elementDefinition Id="503ac998-b287-48aa-ab45-6c4a69500395" />
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="5291d6e9-5ed1-46bb-a821-c32f044aef46" name="расписание" direction="In" isUnique="false">
+                  <elementDefinition Id="fb268cff-b0a3-4256-ac07-aaceaf53f725" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="537cfa69-9068-4f21-85ae-305c5b10d949" name="Судейская бригада" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2d9f459c-ac08-489c-aeeb-a19efdeb037b" />
+        <targetEnds>
+          <association Id="efa2d0c1-ad1c-4429-8577-6aedc870ec5c" isDerived="false" sourceEndRoleName="Судейская бригада" targetEndRoleName="Судья" isLeaf="false" isAbstract="false">
+            <classMoniker Id="b996de87-199a-4641-ae1e-63c07bb875dc" LastKnownName="Судья" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7cc9fd34-7b9b-4577-9c6b-f0714700c49d" name="Судейская бригада" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="9f11b6bd-e836-4c8d-bc15-688fdb62fb59" name="Lower" value="М">
+                      <elementDefinition Id="75d18f8f-fed9-4400-bcd4-661b66c56d24" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="2552f897-2612-43a5-966c-d91d741807f3" name="Upper" value="М">
+                      <elementDefinition Id="d7badded-3ac3-4091-9d92-aa69fc1402bc" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="95c9b358-8272-4f54-bc68-0e3584a1768d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="02c5b6df-a9f0-4836-ad7a-182c561f782f" name="Судья" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a1ed8e7b-211f-40b0-a215-0b3f2671bf40" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="50420ffe-2be4-45e7-a6e5-b96f455104d5" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="62a0cc59-ff4e-4dc2-809b-8430ebc886c0" name="id судьи int" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="20fb9def-5976-45ee-a1fc-306a2b3cbb56" />
+          </property>
+          <property Id="ba40a900-af05-4d69-81bd-2636ee803b47" name="id мероприятия int" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="fee6d2ef-ee9d-46fb-8208-8b6c0c7da82d" />
+          </property>
+          <property Id="52c332ae-7cac-407a-b780-b2f5d63dfcea" name="id int" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="05e78f5e-1b84-4448-ba79-5c0dce7191ee" />
+          </property>
+          <property Id="9dd46166-caa7-4e61-846a-b7d21fe966ba" name="Судьи List&lt;Судья&gt;" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0f70486f-0b07-46db-bd46-6f481ad6f737" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="729a0b01-ba3e-4ed1-a613-88d7dd4b9929" name="Спортивная площадка" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="15bd1725-3fd5-4b26-939d-3291da7ac3f1" />
+        <ownedAttributesInternal>
+          <property Id="61202723-afc5-4d67-b2c8-de2f8dd6e988" name="id int" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="18262671-3467-4b5c-b33d-49703bdaa60f" />
+          </property>
+          <property Id="6da6c62d-bbb6-4546-9561-956d7918fd19" name="название stirng" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9d96e1bc-36d2-4025-bc55-8c12432c2432" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="67983cb8-809a-40ef-8d52-3dd036f5c85b" name="открытьСписокСвободныхСпортивныхПлощадок" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e282b157-99d0-4799-bb00-85c90bd085a8" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a0543f28-1e81-4795-b8b9-b5b1086726ac" name="Спонсор" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="36e1855d-05d7-4ba6-aacf-cbdf3e8147bc" />
+        <suppliersInternal>
+          <dependency Id="ff181b59-b933-4269-ad76-aef8ec308026">
+            <classMoniker Id="8b6530b7-83be-438a-a3e5-70553efa4a8f" LastKnownName="Мероприятие" />
+            <elementDefinition Id="95b04371-a58b-47ba-8c1d-2c10b46fbadb" />
+          </dependency>
+        </suppliersInternal>
+        <targetEnds>
+          <association Id="42e51ad2-8899-49d8-bb5c-563be78a1f54" isDerived="false" sourceEndRoleName="Спонсор" targetEndRoleName="ВзносСпонсора" isLeaf="false" isAbstract="false">
+            <classMoniker Id="53530031-6c5c-461a-82a5-30749e0f6554" LastKnownName="ВзносСпонсора" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6bbb1cc7-ecc3-4794-93a5-94e96aa41013" name="Спонсор" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="310483c7-93b3-4d56-bc9e-093b88d962c9" name="Lower" value="M">
+                      <elementDefinition Id="0eddc5c8-e274-490b-9e83-b98f3c3b7dab" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="1a27263d-600f-4770-8a42-643e684e6839" name="Upper" value="M">
+                      <elementDefinition Id="614c97e7-da73-4f8a-81d8-72aeb7665812" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="4ae004c5-5678-405e-97f0-934319419e6e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="003c46ec-8d84-4cc2-90e4-c8fb1defe9a9" name="ВзносСпонсора" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1d9dc3b6-de7b-45ad-9160-c99f10c87c8c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0ff8fa0d-f67c-4b3c-a27f-0fb9de9508ef" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="955d021f-5845-4266-aac2-eb843082bf3e" name="id int" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1be8c1af-d5f9-4600-a41c-80317185cc94" />
+          </property>
+          <property Id="14557ad0-55ba-45c3-8091-241181a6ca90" name="название stirng" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3c4a1bc8-0951-4ef8-ac9a-dd587410d6c4" />
+          </property>
+          <property Id="17b908e7-5bbe-43ce-8710-bcf80d504df1" name="ВзносСпонсора List&lt;Взнос Спонсора&gt;" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="73f37b49-5f0d-48f0-a552-948400310124" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="978c9c48-7f9e-4196-8edb-2e7994a3a7ec" name="открытьСписокСпонсоров" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ec04fe4b-f6eb-4bc1-9c76-1edd5ffd040a" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ba502dcf-fc3d-4542-8fa9-4160f8352814" name="мероприятие" direction="In" isUnique="false">
+                  <elementDefinition Id="65c16255-dd0b-4fe8-9dbd-b4554b3111c6" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="224d1b92-e4fc-49ca-91a5-803fc5f6424b" name="Команда" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="370cb52a-7835-4df6-be24-9e63bf1686dc" />
+        <targetEnds>
+          <association Id="a73416ef-ebf4-41b1-a27a-1f83f8bf6841" isDerived="false" sourceEndRoleName="Команда" targetEndRoleName="Спортсмен" isLeaf="false" isAbstract="false">
+            <classMoniker Id="d69b2488-938b-4b9e-b44a-ef3789fc110d" LastKnownName="Спортсмен" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="455894b3-69bf-4df3-9d98-15bef863a144" name="Команда" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="a96d321e-4b06-4751-8613-d5bd4db3fecd" name="Lower" value="М">
+                      <elementDefinition Id="0e67e337-4207-4cc5-84a2-d7b37c1cb40a" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="02b50de5-110c-4f2e-b784-f9556e615b5f" name="Upper" value="М">
+                      <elementDefinition Id="33e63187-3533-46b9-98d2-9d9023ef8c23" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="91a21809-3f62-4548-87f6-868a8f89e900" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="62ef00e2-9e65-4fe3-b354-99af80346fe0" name="Спортсмен" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="571e1e3a-a5e3-4ecd-9169-de708c8a1f7e" name="Lower" value="1">
+                      <elementDefinition Id="5681c2ce-3cbf-4bd9-a390-6df1f2cfe39f" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="6971c939-2db1-4664-9f91-866dc9f04287" name="Upper" value="1">
+                      <elementDefinition Id="92bdde2c-a316-4044-a54c-77a09876e269" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="27e93946-05b0-4037-a73a-7a4812007b32" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9535a2f2-3914-43a6-9a5d-20f7a428a5d7" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="ac4a5ee5-3ec4-4384-b822-4caaf41786e6" name="id int" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f958db48-f547-4ed0-8ecf-111ee68826eb" />
+          </property>
+          <property Id="65394326-d7dc-4dd7-8bac-223129e00283" name="название string" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3bc4a36c-6268-4117-9a1d-962485784c0c" />
+          </property>
+          <property Id="9840b26d-cad1-4e70-ba64-340d33104bca" name="Спортсмены List&lt;Спортсмен&gt;" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d3151243-2cba-496a-ae13-ac3f9bdcb121" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="486b3cfd-9b1f-484f-9e4f-0aa571ab2ffb" name="Вид спорта" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="051fbec1-f726-4be8-b149-7b51ec913ffe" />
+        <targetEnds>
+          <association Id="0ac3af92-4a15-4429-a6e2-cbb762b1a2db" isDerived="false" sourceEndRoleName="Вид спорта" targetEndRoleName="Мероприятие" isLeaf="false" isAbstract="false">
+            <classMoniker Id="8b6530b7-83be-438a-a3e5-70553efa4a8f" LastKnownName="Мероприятие" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="adcdc4c6-6338-4d99-9853-d8d4cf8acc41" name="Вид спорта" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f8bf8ddb-f432-44e8-8688-4c6d47a55600" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8c09f90d-237a-44b6-84ca-1ab72d1225b0" name="Мероприятие" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fe2b13fc-8a8c-4a7a-9775-73eb7dd13dda" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6b3a5464-4f27-4762-8fc8-bb973ed81a09" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="74e8b89a-39c4-42e7-a3b5-508a0128c916" name="id int" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="addfeabb-7a9a-4559-9557-f0e6eb01264d" />
+          </property>
+          <property Id="29ac5441-a2a1-4a54-8028-9fde3d24f67d" name="название string" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f46f35d7-2a7b-4ebd-b286-addcd6d63f5c" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="53530031-6c5c-461a-82a5-30749e0f6554" name="ВзносСпонсора" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3dc2c80d-6f3b-41f6-b2f2-de6458c0f218" />
+        <ownedAttributesInternal>
+          <property Id="7595f4e8-c4e7-41bd-9e81-2261709c4b7b" name="id спонсора int" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d34c4a99-73a5-4445-b154-f04481fe5316" />
+          </property>
+          <property Id="fa6c721b-df97-4874-a107-a1e2492cf66a" name="спонсорский взнос double" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2e56fc24-76c1-4ea9-8184-5924b0392355" />
+          </property>
+          <property Id="47350621-6977-47ea-8747-f873fba625e6" name="id int" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="97b8c4ee-c197-4f85-890b-6416dcb704d5" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f5d7e9e6-efc2-4d2d-bf15-e47adb1dd7fd" name="ПризовойФонд" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8dcc25ca-7fda-4ce4-9ec9-e5d3b45a4469" />
+        <ownedAttributesInternal>
+          <property Id="596f7c6e-4375-479c-b5cb-1d3b7b4fa35b" name="id взнос спонсора int" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4998f733-5264-4d11-b5f8-2f670f1544fd" />
+          </property>
+          <property Id="03f1306b-75f8-4def-a3c1-a9598c3f3092" name="сумма призового фонда double" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="aa7cf096-2336-4150-a1cd-301bfbb059eb" />
+          </property>
+          <property Id="86bbd0f8-8c6a-4f3f-acc7-5a69f6d7836d" name="id мероприятия int" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="267a043f-d221-4415-8a84-888ceba383d1" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b996de87-199a-4641-ae1e-63c07bb875dc" name="Судья" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="65f44587-f6b4-492c-8f44-59231f21c4c6" />
+        <targetEnds>
+          <association Id="0e9526d2-1744-448d-ba5d-53b244b7bc11" isDerived="false" sourceEndRoleName="Судья" targetEndRoleName="Справочник Категорий" isLeaf="false" isAbstract="false">
+            <classMoniker Id="63b94f55-2cf3-40c5-b20d-c8045d2c2954" LastKnownName="Справочник Категорий" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0f8dca59-1342-4bb7-a0a3-95afa24ff76a" name="Судья" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e34e0b02-54d2-4276-9a72-fd3032b3ff9a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="42b7fadc-d703-4ebf-a20c-828f9ee12f9c" name="Справочник Категорий" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1865d669-0c39-4422-830b-247d7f8c1360" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="df424711-5c4a-4170-9dbd-e402370759f1" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="c13efa41-5476-4052-b0ac-d19ea5dd863c" name="id int" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bb764ada-7ab8-48c8-a643-328544441bd7" />
+          </property>
+          <property Id="1910adae-007c-4d6d-900f-80656b43bf2f" name="Фамилия string" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9dfcf0d5-dd6a-463c-b6dd-a7bde88f323e" />
+          </property>
+          <property Id="e4a1bd31-67ed-40a9-bf4f-3106ed04912e" name="Имя string" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9173ac27-51a9-4bff-960d-5438d9811956" />
+          </property>
+          <property Id="fa3e48d8-4c9a-4916-8187-5a38f7dc4920" name="Отчество string" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="94e7ce9e-579b-4194-b11a-f19e58907ddd" />
+          </property>
+          <property Id="ffb30349-92d7-4675-afce-0d5edabd830f" name="id категории int" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0150f01d-a5d2-4ae6-99af-70b4958baf8e" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="63b94f55-2cf3-40c5-b20d-c8045d2c2954" name="Справочник Категорий" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="12a20a66-58d1-46e5-b18d-77052ee19d14" />
+        <ownedAttributesInternal>
+          <property Id="bcc12f77-4063-4ef9-b7c0-f2c2a3793970" name="id int" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0342a92e-d800-436c-b1fe-709be35210d7" />
+          </property>
+          <property Id="29a02730-716f-46b2-a32e-2da4da9530cd" name="название string" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="9c1b53d7-8df4-435a-a8c2-deb9373172ad" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ec511ad5-0dae-4f9f-8f57-c3dcd94295a1" name="Список участников соревнования" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b648797c-b7bd-4f66-ac10-50c471b6889c" />
+        <ownedAttributesInternal>
+          <property Id="dd782da7-eb23-4b8e-9e78-81767d739e44" name="id int" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="db3ee0be-8c03-479c-9561-6cc5729bfe81" />
+          </property>
+          <property Id="371be8cb-0d77-4c5d-8a33-6d16da1fe813" name="спортсмен Спортсмен" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1773410e-d601-4a55-8c17-5b722dcc34d9" />
+          </property>
+          <property Id="b96c1d2f-4db0-4ecb-92bd-46d036ebd34b" name="id мероприятия int" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d74bb1eb-fb5b-4da6-84c5-3ae38860f30f" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="5416cfad-c102-456a-bb30-f1207999af8f" name="ModelingProject1">
+    <elementDefinition Id="18cff498-dd70-48ad-95cd-4313afe8e943" />
+  </package>
+</logicalClassDesignerModel>
